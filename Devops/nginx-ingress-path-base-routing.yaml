@@ -1,0 +1,34 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: node-app-ingress
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+    nginx.ingress.kubernetes.io/use-regex: "true"
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+spec:
+  tls:
+  - hosts:
+      - node.busyboy.pro
+#    secretName: letsencrypt-prod
+  rules:
+   - http:
+      paths:
+      - path: /node(/|$)(.*)
+        pathType: Prefix
+        backend:
+          service:
+            name: node-app
+            port:
+              number: 3000
+      - path: /(.*)
+        pathType: Prefix
+        backend:
+          service:
+            name: node-app
+            port:
+              number: 3000
+
+

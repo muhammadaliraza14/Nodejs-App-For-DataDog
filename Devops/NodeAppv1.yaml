@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-app
+  labels:
+    app.kubernetes.io/name: node-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: node-app
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: node-app
+    spec:
+      containers:
+      - name: node-app
+        image: nodejsapplicationfordatadog.azurecr.io/myapp:latest
+        env:   
+        resources:
+          limits:
+            memory: "356Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 3000
+      imagePullSecrets:
+      - name: my-acr-secret
+      dnsConfig:
+              options:
+                - name: ndots
+                  value: "2"
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: node-app
+  labels:
+    app.kubernetes.io/name: node-app
+spec:
+  type: ClusterIP
+  selector:
+    app.kubernetes.io/name: node-app
+  ports:
+  - protocol: TCP
+    port: 3000
+    targetPort: 3000

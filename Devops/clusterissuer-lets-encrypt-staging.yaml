@@ -1,0 +1,166 @@
+apiVersion: cert-manager.io/v1
+kind: ClusterIssuer
+metadata:
+  name: letsencrypt-prod
+  namespace: cert-manager
+spec:
+  acme:
+    email: rajazainjanjua333@gmail.com
+    server: https://acme-v02.api.letsencrypt.org/directory
+    privateKeySecretRef:
+      name: letsencrypt-prod
+    solvers:
+    - http01:
+        ingress:
+          class: nginx
+    ## Secttion added to configure multiple solvers
+      selector:
+        dnsNames:
+        - 'node.busyboy.pro'
+    - dns01:
+        cloudflare:
+          apiTokenSecretRef:
+            name: cloudflare-api-token-secret
+            key: api-token
+      selector:
+        dnsZones:
+        - 'busyboy.pro'
+
+
+
+
+# # clusterissuer-lets-encrypt-staging.yaml
+# apiVersion: cert-manager.io/v1
+# kind: ClusterIssuer
+# metadata:
+#   name: letsencrypt-staging
+# spec:
+#   acme:
+#     server: https://acme-staging-v02.api.letsencrypt.org/directory
+#     email: rajazainjanjua333@gmail.com
+#     privateKeySecretRef:
+#       name: letsencrypt-staging
+#     solvers:
+#     - dns01:
+#         cloudflare:
+#           email: zia.rasool@purelogics.net
+#           apiTokenSecretRef:
+#             name: cloudflare-api-token-secret
+# #echo -n "AzLMrum6zIu8qgWJ56YEvayGwxE8TQJ_i7wW6GGq" | base64 -i | kubectl create secret generic cloudflare-api-token-secret --from-literal=key=QXpMTXJ1bTZ6SXU4cWdXSjU2WUV2YXlHd3hFOFRRSl9pN3dXNkdHcQ==
+# # echo -n AzLMrum6zIu8qgWJ56YEvayGwxE8TQJ_i7wW6GGq | base64 -i | kubectl create secret generic cloudflare-api-token-secret --from-literal=api-token=$(base64 -) -n cert-manager
+
+# cat <<EOF | kubectl apply -f -
+# apiVersion: v1
+# kind: Secret
+# metadata:
+#   name: cloudflare-api-token-secret
+# type: Opaque
+# stringData:
+#   api-token: ZoA4aUnu0WLkr6cjk2ZRS_zWKbOHNnrcr5U62SwR
+# EOF
+
+# cat <<EOF | kubectl apply -f -
+# apiVersion: cert-manager.io/v1
+# kind: ClusterIssuer
+# metadata:
+#   name: letsencrypt-prod
+# spec:
+#   acme:
+#     email: zia.rasool@purelogics.net
+#     server: https://acme-v02.api.letsencrypt.org/directory
+#     privateKeySecretRef:
+#       name: letsencrypt-issuer-account-key
+#     solvers:
+#     - http01:
+#         ingress:
+#           class: nginx
+#       selector:
+#         dnsNames:
+#         - 'node.busyboy.pro'
+#     - dns01:
+#         cloudflare:
+#           apiTokenSecretRef:
+#             name: cloudflare-api-token-secret
+#             key: api-token
+#       selector:
+#         dnsZones:
+#         - 'busyboy.pro'
+# EOF
+
+# cat <<EOF | kubectl apply -f -
+# apiVersion: cert-manager.io/v1
+# kind: Certificate
+# metadata:
+#   name: registry-busyboy.pro
+# spec:
+#   secretName: registry-busyboy.pro-tls
+#   duration: 2160h # 90d
+#   renewBefore: 360h # 15d
+#   subject:
+#     organizations:
+#       - busyboy.pro
+#   isCA: false
+#   privateKey:
+#     algorithm: RSA
+#     encoding: PKCS1
+#     size: 2048
+#   usages:
+#     - server auth
+#     - client auth
+#   dnsNames:
+#     - 'node.busyboy.pro'
+#   issuerRef:
+#     name: letsencrypt-prod
+#     kind: ClusterIssuer
+# EOF
+
+# cat <<EOF | kubectl apply -f -
+# apiVersion: apps/v1
+# kind: Deployment
+# metadata:
+#   name: node-app
+#   labels:
+#     app.kubernetes.io/name: node-app
+# spec:
+#   replicas: 1
+#   selector:
+#     matchLabels:
+#       app.kubernetes.io/name: node-app
+#   template:
+#     metadata:
+#       labels:
+#         app.kubernetes.io/name: node-app
+#     spec:
+#       containers:
+#       - name: node-app
+#         image: nodejsapplicationfordatadog.azurecr.io/myapp:latest
+#         env:   
+#         resources:
+#           limits:
+#             memory: "356Mi"
+#             cpu: "500m"
+#         ports:
+#         - containerPort: 3000
+#       imagePullSecrets:
+#       - name: my-acr-secret
+#       dnsConfig:
+#               options:
+#                 - name: ndots
+#                   value: "2"
+# ---
+
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: node-app
+#   labels:
+#     app.kubernetes.io/name: node-app
+# spec:
+#   type: ClusterIP
+#   selector:
+#     app.kubernetes.io/name: node-app
+#   ports:
+#   - protocol: TCP
+#     port: 3000
+#     targetPort: 3000
+# EOF

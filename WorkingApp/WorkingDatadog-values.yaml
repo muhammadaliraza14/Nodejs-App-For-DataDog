@@ -1,0 +1,58 @@
+datadog:
+  apiKeyExistingSecret: datadog-secret-staging
+  appKeyExistingSecret: null
+  site: us3.datadoghq.com
+  clusterChecks:
+    enabled: true
+  kubelet:
+    tlsVerify: false
+    host:
+      valueFrom:
+        fieldRef:
+          fieldPath: spec.nodeName
+    hostCAPath: /etc/kubernetes/certs/kubeletserver.crt
+  tags:
+    - env:staging
+  apm:
+    socketEnabled: true
+    hostSocketPath: /var/run/datadog/
+    socketPath: /var/run/datadog/apm.socket
+    portEnabled: true
+    port: 8126
+    instrumentation:
+      enabled: true
+      libVersions:
+        js: v5.5.0
+  logs:
+    enabled: true
+    containerCollectAll: true
+  serviceMonitoring:
+    enabled: true
+  networkMonitoring:
+    enabled: true
+providers:
+  aks:
+    enabled: true
+targetSystem: linux
+clusterAgent:
+  additionalLabels: {}
+  admissionController:
+    configMode: service
+    enabled: true
+    failurePolicy: Ignore
+    port: 8000
+    webhookName: datadog-webhook
+    labelSelectors:
+      - key: control-plane
+        operator: DoesNotExist
+      - key: control-plane
+        operator: NotIn
+        values:
+          - "true"
+      - key: kubernetes.azure.com/managedby
+        operator: NotIn
+        values:
+          - aks
+clusterChecksRunner:
+  enabled: true
+  replicas: 2

@@ -1,0 +1,50 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: node.busyboy.pro
+  namespace: cert-manager
+spec:
+  secretName: secure-node.busyboy.pro-tls
+  duration: 2160h # 90d
+  renewBefore: 360h # 15d
+  subject:
+    organizations:
+      - node.busyboy.pro
+  isCA: false
+  privateKey:
+    algorithm: RSA
+    encoding: PKCS1
+    size: 2048
+  usages:
+    - server auth
+    - client auth
+  dnsNames:
+    - node.busyboy.pro
+  # ipAddresses:
+  #   - 13.88.119.141
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+    group: cert-manager.io
+
+
+
+# # certificate.yaml
+# apiVersion: cert-manager.io/v1
+# kind: Certificate
+# metadata:
+#   name: www
+# spec:
+#   secretName: www-tls
+#   privateKey:
+#     rotationPolicy: Always
+#   commonName: www.node.busyboy.pro
+#   dnsNames:
+#     - www.node.busyboy.pro
+#   usages:
+#     - digital signature
+#     - key encipherment
+#     - server auth
+#   issuerRef:
+#     name: selfsigned
+#     kind: ClusterIssuer

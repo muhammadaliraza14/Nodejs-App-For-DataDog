@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-js-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: react-js
+  template:
+    metadata:
+      labels:
+        app: react-js
+    spec:
+      containers:
+      - name: react-js
+        image: nodejsapplicationfordatadog.azurecr.io/myapp:latest
+        env:
+        - name: DD_TRACE_AGENT_URL
+          value: 'unix:///var/run/datadog/apm.socket'
+        volumeMounts:
+        - name: apmsocketpath
+          mountPath: /var/run/datadog
+        resources:
+          limits:
+            memory: "356Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 3000
+      volumes:
+        - hostPath:
+            path: /var/run/datadog/
+          name: apmsocketpath
+      imagePullSecrets:
+      - name: my-acr-secret
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: react-js-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: react-js
+  ports:
+  - protocol: TCP
+    port: 3000
+    targetPort: 3000
