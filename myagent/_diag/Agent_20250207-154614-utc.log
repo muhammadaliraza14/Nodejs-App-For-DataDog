@@ -1,0 +1,820 @@
+[2025-02-07 15:46:14Z INFO AgentProcess] Agent package osx-arm64.
+[2025-02-07 15:46:14Z INFO AgentProcess] Running on OSX (Arm64).
+[2025-02-07 15:46:14Z INFO AgentProcess] RuntimeInformation: Darwin 24.3.0 Darwin Kernel Version 24.3.0: Thu Jan  2 20:24:06 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T8103.
+[2025-02-07 15:46:14Z INFO AgentProcess] Version: 4.251.0
+[2025-02-07 15:46:14Z INFO AgentProcess] Commit: 69c65179f56dda56424bcb957bb233f612875444
+[2025-02-07 15:46:14Z INFO AgentProcess] Culture: en-PK
+[2025-02-07 15:46:14Z INFO AgentProcess] UI Culture: en-PK
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:46:14Z INFO AgentProcess] Validating directory permissions for: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:46:14Z INFO HostContext] Setting up value for origin: Configure.Password
+[2025-02-07 15:46:14Z INFO HostContext] Value is empty.
+[2025-02-07 15:46:14Z INFO HostContext] Setting up value for origin: Configure.ProxyPassword
+[2025-02-07 15:46:14Z INFO HostContext] Value is empty.
+[2025-02-07 15:46:14Z INFO HostContext] Setting up value for origin: Configure.SslClientCert
+[2025-02-07 15:46:14Z INFO HostContext] Value is empty.
+[2025-02-07 15:46:14Z INFO HostContext] Setting up value for origin: Configure.Token
+[2025-02-07 15:46:14Z INFO HostContext] Value is empty.
+[2025-02-07 15:46:14Z INFO HostContext] Setting up value for origin: Configure.WindowsLogonPassword
+[2025-02-07 15:46:14Z INFO HostContext] Value is empty.
+[2025-02-07 15:46:14Z INFO HostContext] Setting up value for origin: Configure.TenantId
+[2025-02-07 15:46:14Z INFO HostContext] Value is empty.
+[2025-02-07 15:46:14Z INFO HostContext] Setting up value for origin: Configure.ClientId
+[2025-02-07 15:46:14Z INFO HostContext] Value is empty.
+[2025-02-07 15:46:14Z INFO HostContext] Setting up value for origin: Configure.ClientSecret
+[2025-02-07 15:46:14Z INFO HostContext] Value is empty.
+[2025-02-07 15:46:14Z INFO CommandSettings] Configure {
+  "AcceptTeeEula": false,
+  "AddDeploymentGroupTags": false,
+  "AddEnvironmentVirtualMachineResourceTags": false,
+  "AddMachineGroupTags": false,
+  "AlwaysExtractTask": false,
+  "Agent": null,
+  "CollectionName": null,
+  "DeploymentGroup": false,
+  "DeploymentGroupName": null,
+  "DeploymentGroupTags": null,
+  "DeploymentPool": false,
+  "DeploymentPoolName": null,
+  "EnableServiceSidTypeUnrestricted": false,
+  "EnvironmentVMResource": false,
+  "EnvironmentName": null,
+  "EnvironmentVMResourceTags": null,
+  "GitUseSChannel": false,
+  "DisableLogUploads": false,
+  "ReStreamLogsToFiles": false,
+  "MachineGroup": false,
+  "MachineGroupName": null,
+  "MachineGroupTags": null,
+  "MonitorSocketAddress": null,
+  "NotificationPipeName": null,
+  "NotificationSocketAddress": null,
+  "NoRestart": false,
+  "OverwriteAutoLogon": false,
+  "Pool": null,
+  "ProjectName": null,
+  "ProxyPassword": null,
+  "ProxyUserName": null,
+  "ProxyUrl": null,
+  "Replace": false,
+  "RunAsAutoLogon": false,
+  "RunAsService": false,
+  "RunOnce": false,
+  "PreventServiceStart": false,
+  "SslCACert": null,
+  "SslClientCert": null,
+  "SslClientCertArchive": null,
+  "SslClientCertKey": null,
+  "SslClientCertPassword": null,
+  "SslSkipCertValidation": false,
+  "Url": null,
+  "WindowsLogonAccount": null,
+  "WindowsLogonPassword": null,
+  "Work": null,
+  "Auth": null,
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": null,
+  "Unattended": false,
+  "UserName": null,
+  "ClientId": null,
+  "TenantId": null,
+  "ClientSecret": null,
+  "Help": false,
+  "Version": false
+}
+[2025-02-07 15:46:14Z INFO AgentProcess] Arguments parsed
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:46:14Z INFO HostContext] Well known config file 'Proxy': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.proxy'
+[2025-02-07 15:46:14Z INFO VstsAgentWebProxy] No proxy setting found.
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:46:14Z INFO HostContext] Well known config file 'Certificates': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.certificates'
+[2025-02-07 15:46:14Z INFO AgentCertificateManager] No certificate setting found.
+[2025-02-07 15:46:14Z INFO Agent] ExecuteCommand
+[2025-02-07 15:46:14Z INFO ConfigurationStore] currentAssemblyLocation: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/Agent.Listener.dll
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:46:14Z INFO ConfigurationStore] binPath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:46:14Z INFO ConfigurationStore] RootFolder: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:46:14Z INFO HostContext] Well known config file 'Agent': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.agent'
+[2025-02-07 15:46:14Z INFO ConfigurationStore] ConfigFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.agent
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:46:14Z INFO HostContext] Well known config file 'Credentials': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials'
+[2025-02-07 15:46:14Z INFO ConfigurationStore] CredFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:46:14Z INFO HostContext] Well known config file 'Service': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.service'
+[2025-02-07 15:46:14Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.service
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:46:14Z INFO HostContext] Well known config file 'Autologon': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.autologon'
+[2025-02-07 15:46:14Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.autologon
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:46:14Z INFO HostContext] Well known config file 'Options': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.options'
+[2025-02-07 15:46:14Z INFO ConfigurationStore] RuntimeOptionsFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.options
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:46:14Z INFO HostContext] Well known config file 'SetupInfo': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.setup_info'
+[2025-02-07 15:46:14Z INFO ConfigurationStore] SetupInfoFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.setup_info
+[2025-02-07 15:46:14Z INFO Terminal] WRITE LINE: 
+  ___                      ______ _            _ _
+ / _ \                     | ___ (_)          | (_)
+/ /_\ \_____   _ _ __ ___  | |_/ /_ _ __   ___| |_ _ __   ___  ___
+|  _  |_  / | | | '__/ _ \ |  __/| | '_ \ / _ \ | | '_ \ / _ \/ __|
+| | | |/ /| |_| | | |  __/ | |   | | |_) |  __/ | | | | |  __/\__ \
+\_| |_/___|\__,_|_|  \___| \_|   |_| .__/ \___|_|_|_| |_|\___||___/
+                                   | |
+        agent v4.251.0             |_|          (commit 69c6517)
+
+[2025-02-07 15:46:14Z INFO ConfigurationManager] ConfigureAsync
+[2025-02-07 15:46:14Z INFO ConfigurationStore] IsConfigured()
+[2025-02-07 15:46:14Z INFO ConfigurationStore] IsConfigured: False
+[2025-02-07 15:46:14Z INFO ConfigurationManager] Is configured: False
+[2025-02-07 15:46:14Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2025-02-07 15:46:14Z INFO Terminal] WRITE LINE: 
+[2025-02-07 15:46:14Z INFO Terminal] WRITE LINE: >> End User License Agreements:
+[2025-02-07 15:46:14Z INFO Terminal] WRITE LINE: 
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:46:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:46:14Z INFO Terminal] WRITE LINE: Building sources from a TFVC repository requires accepting the Team Explorer Everywhere End User License Agreement. This step is not required for building sources from Git repositories.
+
+A copy of the Team Explorer Everywhere license agreement can be found at:
+  /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/license.html
+[2025-02-07 15:46:14Z INFO Terminal] WRITE LINE: 
+[2025-02-07 15:46:14Z INFO CommandSettings] Flag 'acceptteeeula': 'False'
+[2025-02-07 15:46:14Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-07 15:46:14Z INFO PromptManager] ReadValue
+[2025-02-07 15:46:14Z INFO Terminal] WRITE: Enter (Y/N) Accept the Team Explorer Everywhere license agreement now? (press enter for N) > 
+[2025-02-07 15:46:14Z INFO Terminal] READ LINE
+[2025-02-07 15:46:17Z INFO Terminal] Read value: 'y'
+[2025-02-07 15:46:17Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2025-02-07 15:46:17Z INFO CommandSettings] Flag 'deploymentpool': 'False'
+[2025-02-07 15:46:17Z INFO CommandSettings] Flag 'environment': 'False'
+[2025-02-07 15:46:17Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Listener.Configuration.IConfigurationProvider'
+[2025-02-07 15:46:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2025-02-07 15:46:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2025-02-07 15:46:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2025-02-07 15:46:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.EnvironmentVMResourceConfigProvider, Agent.Listener
+[2025-02-07 15:46:17Z INFO Terminal] WRITE LINE: 
+[2025-02-07 15:46:17Z INFO Terminal] WRITE LINE: >> Connect:
+[2025-02-07 15:46:17Z INFO Terminal] WRITE LINE: 
+[2025-02-07 15:46:17Z INFO CommandSettings] Arg 'url': ''
+[2025-02-07 15:46:17Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-07 15:46:17Z INFO PromptManager] ReadValue
+[2025-02-07 15:46:17Z INFO Terminal] WRITE: Enter server URL > 
+[2025-02-07 15:46:17Z INFO Terminal] READ LINE
+[2025-02-07 15:47:42Z INFO Terminal] Read value: 'https://dev.azure.com/muhammadaliraza'
+[2025-02-07 15:47:42Z INFO ConfigurationManager] GetCredentialProvider
+[2025-02-07 15:47:42Z INFO CommandSettings] Arg 'auth': ''
+[2025-02-07 15:47:42Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-07 15:47:42Z INFO PromptManager] ReadValue
+[2025-02-07 15:47:42Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2025-02-07 15:47:42Z INFO Terminal] READ LINE
+[2025-02-07 15:47:47Z INFO Terminal] Read value: ''
+[2025-02-07 15:47:47Z INFO PromptManager] Falling back to the default: 'PAT'
+[2025-02-07 15:47:47Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2025-02-07 15:47:47Z INFO CredentialManager] GetCredentialProvider
+[2025-02-07 15:47:47Z INFO CredentialManager] Creating type PAT
+[2025-02-07 15:47:47Z INFO CredentialManager] Creating credential type: PAT
+[2025-02-07 15:47:47Z INFO PersonalAccessToken] EnsureCredential
+[2025-02-07 15:47:47Z INFO CommandSettings] Arg 'token': ''
+[2025-02-07 15:47:47Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-07 15:47:47Z INFO PromptManager] ReadValue
+[2025-02-07 15:47:47Z INFO Terminal] WRITE: Enter personal access token > 
+[2025-02-07 15:47:47Z INFO Terminal] READ SECRET
+[2025-02-07 15:47:50Z INFO Terminal] Read value: ''
+[2025-02-07 15:47:50Z INFO Terminal] WRITE: Enter personal access token > 
+[2025-02-07 15:47:50Z INFO Terminal] READ SECRET
+[2025-02-07 15:47:51Z INFO Terminal] Read value: ''
+[2025-02-07 15:47:51Z INFO Terminal] WRITE: Enter personal access token > 
+[2025-02-07 15:47:51Z INFO Terminal] READ SECRET
+[2025-02-07 15:50:51Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2025-02-07 15:50:51Z INFO Terminal] Read value: '***'
+[2025-02-07 15:50:51Z INFO ConfigurationManager] cred retrieved
+[2025-02-07 15:50:51Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2025-02-07 15:50:51Z INFO PersonalAccessToken] GetVssCredentials
+[2025-02-07 15:50:51Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2025-02-07 15:50:51Z INFO PersonalAccessToken] cred created
+[2025-02-07 15:50:51Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 15:50:58Z ERR  VisualStudioServices] GET request to https://dev.azure.com/muhammadaliraza/_apis/connectionData failed. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.DllNotFoundException: Unable to load shared library 'libSystem.Security.Cryptography.Native.Apple' or one of its dependencies. In order to help diagnose loading problems, consider setting the DYLD_PRINT_LIBRARIES environment variable: 
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib' (code signature in <4388A22B-3186-30B8-9676-3780F01BD6FF> '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib' not valid for use in process: library load disallowed by system policy), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib' (code signature in <4388A22B-3186-30B8-9676-3780F01BD6FF> '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib' not valid for use in process: library load disallowed by system policy)
+dlopen(libSystem.Security.Cryptography.Native.Apple.dylib, 0x0001): tried: 'libSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/lib/libSystem.Security.Cryptography.Native.Apple.dylib' (no such file, not in dyld cache), 'libSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/local/lib/libSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/lib/libSystem.Security.Cryptography.Native.Apple.dylib' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple.dylib, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file)
+dlopen(liblibSystem.Security.Cryptography.Native.Apple.dylib, 0x0001): tried: 'liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSliblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/lib/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file, not in dyld cache), 'liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/local/lib/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/lib/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple' (no such file)
+dlopen(libSystem.Security.Cryptography.Native.Apple, 0x0001): tried: 'libSystem.Security.Cryptography.Native.Apple' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/lib/libSystem.Security.Cryptography.Native.Apple' (no such file, not in dyld cache), 'libSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/local/lib/libSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/lib/libSystem.Security.Cryptography.Native.Apple' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple' (no such file)
+dlopen(liblibSystem.Security.Cryptography.Native.Apple, 0x0001): tried: 'liblibSystem.Security.Cryptography.Native.Apple' (no such file), '/System/Volumes/Preboot/Cryptexes/OSliblibSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/lib/liblibSystem.Security.Cryptography.Native.Apple' (no such file, not in dyld cache), 'liblibSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/local/lib/liblibSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/lib/liblibSystem.Security.Cryptography.Native.Apple' (no such file, not in dyld cache)
+
+   at Interop.AppleCrypto.SslCreateContext(Int32 isServer)
+   at System.Net.SafeDeleteSslContext.CreateSslContext(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.SafeDeleteSslContext..ctor(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStreamPal.HandshakeInternal(SafeDeleteSslContext& context, ReadOnlySpan`1 inputBuffer, Byte[]& outputBuffer, SslAuthenticationOptions sslAuthenticationOptions)
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2025-02-07 15:50:58Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 15:50:58Z INFO LocationServer] Unable to connect to https://dev.azure.com/muhammadaliraza.
+[2025-02-07 15:50:58Z ERR  LocationServer] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.DllNotFoundException: Unable to load shared library 'libSystem.Security.Cryptography.Native.Apple' or one of its dependencies. In order to help diagnose loading problems, consider setting the DYLD_PRINT_LIBRARIES environment variable: 
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib' (code signature in <4388A22B-3186-30B8-9676-3780F01BD6FF> '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib' not valid for use in process: library load disallowed by system policy), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib' (code signature in <4388A22B-3186-30B8-9676-3780F01BD6FF> '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib' not valid for use in process: library load disallowed by system policy)
+dlopen(libSystem.Security.Cryptography.Native.Apple.dylib, 0x0001): tried: 'libSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/lib/libSystem.Security.Cryptography.Native.Apple.dylib' (no such file, not in dyld cache), 'libSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/local/lib/libSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/lib/libSystem.Security.Cryptography.Native.Apple.dylib' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple.dylib, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file)
+dlopen(liblibSystem.Security.Cryptography.Native.Apple.dylib, 0x0001): tried: 'liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSliblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/lib/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file, not in dyld cache), 'liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/local/lib/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/lib/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple' (no such file)
+dlopen(libSystem.Security.Cryptography.Native.Apple, 0x0001): tried: 'libSystem.Security.Cryptography.Native.Apple' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/lib/libSystem.Security.Cryptography.Native.Apple' (no such file, not in dyld cache), 'libSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/local/lib/libSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/lib/libSystem.Security.Cryptography.Native.Apple' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple' (no such file)
+dlopen(liblibSystem.Security.Cryptography.Native.Apple, 0x0001): tried: 'liblibSystem.Security.Cryptography.Native.Apple' (no such file), '/System/Volumes/Preboot/Cryptexes/OSliblibSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/lib/liblibSystem.Security.Cryptography.Native.Apple' (no such file, not in dyld cache), 'liblibSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/local/lib/liblibSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/lib/liblibSystem.Security.Cryptography.Native.Apple' (no such file, not in dyld cache)
+
+   at Interop.AppleCrypto.SslCreateContext(Int32 isServer)
+   at System.Net.SafeDeleteSslContext.CreateSslContext(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.SafeDeleteSslContext..ctor(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStreamPal.HandshakeInternal(SafeDeleteSslContext& context, ReadOnlySpan`1 inputBuffer, Byte[]& outputBuffer, SslAuthenticationOptions sslAuthenticationOptions)
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.LocationServer.ConnectAsync(VssConnection jobConnection) in /Users/runner/work/1/s/src/Microsoft.VisualStudio.Services.Agent/LocationServer.cs:line 36
+[2025-02-07 15:50:58Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-07 15:50:58Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-07 15:50:58Z ERR  Terminal] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.DllNotFoundException: Unable to load shared library 'libSystem.Security.Cryptography.Native.Apple' or one of its dependencies. In order to help diagnose loading problems, consider setting the DYLD_PRINT_LIBRARIES environment variable: 
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib' (code signature in <4388A22B-3186-30B8-9676-3780F01BD6FF> '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib' not valid for use in process: library load disallowed by system policy), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib' (code signature in <4388A22B-3186-30B8-9676-3780F01BD6FF> '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple.dylib' not valid for use in process: library load disallowed by system policy)
+dlopen(libSystem.Security.Cryptography.Native.Apple.dylib, 0x0001): tried: 'libSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/lib/libSystem.Security.Cryptography.Native.Apple.dylib' (no such file, not in dyld cache), 'libSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/local/lib/libSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/lib/libSystem.Security.Cryptography.Native.Apple.dylib' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple.dylib, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file)
+dlopen(liblibSystem.Security.Cryptography.Native.Apple.dylib, 0x0001): tried: 'liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSliblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/lib/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file, not in dyld cache), 'liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/local/lib/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file), '/usr/lib/liblibSystem.Security.Cryptography.Native.Apple.dylib' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.Security.Cryptography.Native.Apple' (no such file)
+dlopen(libSystem.Security.Cryptography.Native.Apple, 0x0001): tried: 'libSystem.Security.Cryptography.Native.Apple' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/lib/libSystem.Security.Cryptography.Native.Apple' (no such file, not in dyld cache), 'libSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/local/lib/libSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/lib/libSystem.Security.Cryptography.Native.Apple' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.Security.Cryptography.Native.Apple' (no such file)
+dlopen(liblibSystem.Security.Cryptography.Native.Apple, 0x0001): tried: 'liblibSystem.Security.Cryptography.Native.Apple' (no such file), '/System/Volumes/Preboot/Cryptexes/OSliblibSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/lib/liblibSystem.Security.Cryptography.Native.Apple' (no such file, not in dyld cache), 'liblibSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/local/lib/liblibSystem.Security.Cryptography.Native.Apple' (no such file), '/usr/lib/liblibSystem.Security.Cryptography.Native.Apple' (no such file, not in dyld cache)
+
+   at Interop.AppleCrypto.SslCreateContext(Int32 isServer)
+   at System.Net.SafeDeleteSslContext.CreateSslContext(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.SafeDeleteSslContext..ctor(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStreamPal.HandshakeInternal(SafeDeleteSslContext& context, ReadOnlySpan`1 inputBuffer, Byte[]& outputBuffer, SslAuthenticationOptions sslAuthenticationOptions)
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.LocationServer.ConnectAsync(VssConnection jobConnection) in /Users/runner/work/1/s/src/Microsoft.VisualStudio.Services.Agent/LocationServer.cs:line 36
+   at Microsoft.VisualStudio.Services.Agent.Util.ServerUtil.GetConnectionData(String serverUrl, VssCredentials credentials, ILocationServer locationServer, Boolean skipServerCertificateValidation) in /Users/runner/work/1/s/src/Microsoft.VisualStudio.Services.Agent/Util/ServerUtil.cs:line 94
+   at Microsoft.VisualStudio.Services.Agent.Util.ServerUtil.DetermineDeploymentType(String serverUrl, VssCredentials credentials, ILocationServer locationServer, Boolean skipServerCertificateValidation) in /Users/runner/work/1/s/src/Microsoft.VisualStudio.Services.Agent/Util/ServerUtil.cs:line 85
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.ConfigurationManager.CheckIsHostedServer(IConfigurationProvider agentProvider, AgentSettings agentSettings, ICredentialProvider credProvider, Boolean skipServerCertificateValidation) in /Users/runner/work/1/s/src/Agent.Listener/Configuration/ConfigurationManager.cs:line 1010
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /Users/runner/work/1/s/src/Agent.Listener/Configuration/ConfigurationManager.cs:line 163
+[2025-02-07 15:50:58Z ERR  Terminal] WRITE ERROR: Failed to connect.  Try again or ctrl-c to quit
+[2025-02-07 15:50:58Z INFO CommandSettings] Arg 'url': ''
+[2025-02-07 15:50:58Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-07 15:50:58Z INFO PromptManager] ReadValue
+[2025-02-07 15:50:58Z INFO Terminal] WRITE: Enter server URL > 
+[2025-02-07 15:50:58Z INFO Terminal] READ LINE
+[2025-02-07 15:51:17Z INFO Terminal] Read value: 'https://dev.azure.com/muhammadaliraza'
+[2025-02-07 15:51:17Z INFO ConfigurationManager] GetCredentialProvider
+[2025-02-07 15:51:17Z INFO CommandSettings] Arg 'auth': ''
+[2025-02-07 15:51:17Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-07 15:51:17Z INFO PromptManager] ReadValue
+[2025-02-07 15:51:17Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2025-02-07 15:51:17Z INFO Terminal] READ LINE
+[2025-02-07 15:52:21Z INFO Terminal] Read value: 'CTBFUXxStwLLE6WcCVKUR6Ci1djGPcrA9X8IxfkCUgGsF9mK0SBnJQQJ99BBACAAAAAydu5yAAASAZDO30Uq'
+[2025-02-07 15:52:21Z INFO PromptManager] Invalid value.
+[2025-02-07 15:52:21Z INFO Terminal] WRITE LINE: Enter a valid value for authentication type.
+[2025-02-07 15:52:21Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2025-02-07 15:52:21Z INFO Terminal] READ LINE
+[2025-02-07 15:52:28Z INFO Terminal] Read value: ''
+[2025-02-07 15:52:28Z INFO PromptManager] Falling back to the default: 'PAT'
+[2025-02-07 15:52:28Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2025-02-07 15:52:28Z INFO CredentialManager] GetCredentialProvider
+[2025-02-07 15:52:28Z INFO CredentialManager] Creating type PAT
+[2025-02-07 15:52:28Z INFO CredentialManager] Creating credential type: PAT
+[2025-02-07 15:52:28Z INFO PersonalAccessToken] EnsureCredential
+[2025-02-07 15:52:28Z INFO CommandSettings] Arg 'token': ''
+[2025-02-07 15:52:28Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-07 15:52:28Z INFO PromptManager] ReadValue
+[2025-02-07 15:52:28Z INFO Terminal] WRITE: Enter personal access token > 
+[2025-02-07 15:52:28Z INFO Terminal] READ SECRET
+[2025-02-07 15:52:30Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2025-02-07 15:52:30Z INFO Terminal] Read value: '***'
+[2025-02-07 15:52:30Z INFO ConfigurationManager] cred retrieved
+[2025-02-07 15:52:30Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2025-02-07 15:52:30Z INFO PersonalAccessToken] GetVssCredentials
+[2025-02-07 15:52:30Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2025-02-07 15:52:30Z INFO PersonalAccessToken] cred created
+[2025-02-07 15:52:30Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 15:53:11Z ERR  VisualStudioServices] GET request to https://dev.azure.com/muhammadaliraza/_apis/connectionData failed. System.Net.Http.HttpRequestException: Error while copying content to a stream.
+ ---> System.IO.Compression.ZLibException: The underlying compression routine could not be loaded correctly.
+ ---> System.DllNotFoundException: Unable to load shared library 'libSystem.IO.Compression.Native' or one of its dependencies. In order to help diagnose loading problems, consider setting the DYLD_PRINT_LIBRARIES environment variable: 
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib' (code signature in <D577B2A2-E9EC-3478-91AF-1DFFB1279242> '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib' not valid for use in process: library load disallowed by system policy), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib' (code signature in <D577B2A2-E9EC-3478-91AF-1DFFB1279242> '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib' not valid for use in process: library load disallowed by system policy)
+dlopen(libSystem.IO.Compression.Native.dylib, 0x0001): tried: 'libSystem.IO.Compression.Native.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibSystem.IO.Compression.Native.dylib' (no such file), '/usr/lib/libSystem.IO.Compression.Native.dylib' (no such file, not in dyld cache), 'libSystem.IO.Compression.Native.dylib' (no such file), '/usr/local/lib/libSystem.IO.Compression.Native.dylib' (no such file), '/usr/lib/libSystem.IO.Compression.Native.dylib' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native.dylib, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native.dylib' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native.dylib' (no such file)
+dlopen(liblibSystem.IO.Compression.Native.dylib, 0x0001): tried: 'liblibSystem.IO.Compression.Native.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSliblibSystem.IO.Compression.Native.dylib' (no such file), '/usr/lib/liblibSystem.IO.Compression.Native.dylib' (no such file, not in dyld cache), 'liblibSystem.IO.Compression.Native.dylib' (no such file), '/usr/local/lib/liblibSystem.IO.Compression.Native.dylib' (no such file), '/usr/lib/liblibSystem.IO.Compression.Native.dylib' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native' (no such file)
+dlopen(libSystem.IO.Compression.Native, 0x0001): tried: 'libSystem.IO.Compression.Native' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibSystem.IO.Compression.Native' (no such file), '/usr/lib/libSystem.IO.Compression.Native' (no such file, not in dyld cache), 'libSystem.IO.Compression.Native' (no such file), '/usr/local/lib/libSystem.IO.Compression.Native' (no such file), '/usr/lib/libSystem.IO.Compression.Native' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native' (no such file)
+dlopen(liblibSystem.IO.Compression.Native, 0x0001): tried: 'liblibSystem.IO.Compression.Native' (no such file), '/System/Volumes/Preboot/Cryptexes/OSliblibSystem.IO.Compression.Native' (no such file), '/usr/lib/liblibSystem.IO.Compression.Native' (no such file, not in dyld cache), 'liblibSystem.IO.Compression.Native' (no such file), '/usr/local/lib/liblibSystem.IO.Compression.Native' (no such file), '/usr/lib/liblibSystem.IO.Compression.Native' (no such file, not in dyld cache)
+
+   at System.IO.Compression.ZLibNative.ZLibStreamHandle.InflateInit2_(Int32 windowBits)
+   at System.IO.Compression.Inflater.InflateInit(Int32 windowBits)
+   --- End of inner exception stack trace ---
+   at System.IO.Compression.Inflater.InflateInit(Int32 windowBits)
+   at System.IO.Compression.DeflateStream..ctor(Stream stream, CompressionMode mode, Boolean leaveOpen, Int32 windowBits, Int64 uncompressedSize)
+   at System.IO.Compression.GZipStream..ctor(Stream stream, CompressionMode mode, Boolean leaveOpen)
+   at System.Net.Http.DecompressionHandler.GZipDecompressedContent.GetDecompressedStream(Stream originalStream)
+   at System.Net.Http.DecompressionHandler.DecompressedContent.SerializeToStreamAsync(Stream stream, TransportContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.LoadIntoBufferAsyncCore(Task serializeToStreamTask, MemoryStream tempBuffer)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpContent.LoadIntoBufferAsyncCore(Task serializeToStreamTask, MemoryStream tempBuffer)
+   at Microsoft.VisualStudio.Services.Common.TaskCancellationExtensions.<>c__DisplayClass1_0.<<EnforceCancellation>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.VisualStudio.Services.Common.TaskCancellationExtensions.EnforceCancellation[TResult](Task`1 task, CancellationToken cancellationToken, Func`1 makeMessage, String file, String member, Int32 line)
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.BufferResponseContentAsync(HttpRequestMessage request, HttpResponseMessage response, Func`1 makeErrorMessage, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2025-02-07 15:53:11Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 15:53:11Z INFO LocationServer] Unable to connect to https://dev.azure.com/muhammadaliraza.
+[2025-02-07 15:53:11Z ERR  LocationServer] System.Net.Http.HttpRequestException: Error while copying content to a stream.
+ ---> System.IO.Compression.ZLibException: The underlying compression routine could not be loaded correctly.
+ ---> System.DllNotFoundException: Unable to load shared library 'libSystem.IO.Compression.Native' or one of its dependencies. In order to help diagnose loading problems, consider setting the DYLD_PRINT_LIBRARIES environment variable: 
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib' (code signature in <D577B2A2-E9EC-3478-91AF-1DFFB1279242> '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib' not valid for use in process: library load disallowed by system policy), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib' (code signature in <D577B2A2-E9EC-3478-91AF-1DFFB1279242> '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib' not valid for use in process: library load disallowed by system policy)
+dlopen(libSystem.IO.Compression.Native.dylib, 0x0001): tried: 'libSystem.IO.Compression.Native.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibSystem.IO.Compression.Native.dylib' (no such file), '/usr/lib/libSystem.IO.Compression.Native.dylib' (no such file, not in dyld cache), 'libSystem.IO.Compression.Native.dylib' (no such file), '/usr/local/lib/libSystem.IO.Compression.Native.dylib' (no such file), '/usr/lib/libSystem.IO.Compression.Native.dylib' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native.dylib, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native.dylib' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native.dylib' (no such file)
+dlopen(liblibSystem.IO.Compression.Native.dylib, 0x0001): tried: 'liblibSystem.IO.Compression.Native.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSliblibSystem.IO.Compression.Native.dylib' (no such file), '/usr/lib/liblibSystem.IO.Compression.Native.dylib' (no such file, not in dyld cache), 'liblibSystem.IO.Compression.Native.dylib' (no such file), '/usr/local/lib/liblibSystem.IO.Compression.Native.dylib' (no such file), '/usr/lib/liblibSystem.IO.Compression.Native.dylib' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native' (no such file)
+dlopen(libSystem.IO.Compression.Native, 0x0001): tried: 'libSystem.IO.Compression.Native' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibSystem.IO.Compression.Native' (no such file), '/usr/lib/libSystem.IO.Compression.Native' (no such file, not in dyld cache), 'libSystem.IO.Compression.Native' (no such file), '/usr/local/lib/libSystem.IO.Compression.Native' (no such file), '/usr/lib/libSystem.IO.Compression.Native' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native' (no such file)
+dlopen(liblibSystem.IO.Compression.Native, 0x0001): tried: 'liblibSystem.IO.Compression.Native' (no such file), '/System/Volumes/Preboot/Cryptexes/OSliblibSystem.IO.Compression.Native' (no such file), '/usr/lib/liblibSystem.IO.Compression.Native' (no such file, not in dyld cache), 'liblibSystem.IO.Compression.Native' (no such file), '/usr/local/lib/liblibSystem.IO.Compression.Native' (no such file), '/usr/lib/liblibSystem.IO.Compression.Native' (no such file, not in dyld cache)
+
+   at System.IO.Compression.ZLibNative.ZLibStreamHandle.InflateInit2_(Int32 windowBits)
+   at System.IO.Compression.Inflater.InflateInit(Int32 windowBits)
+   --- End of inner exception stack trace ---
+   at System.IO.Compression.Inflater.InflateInit(Int32 windowBits)
+   at System.IO.Compression.DeflateStream..ctor(Stream stream, CompressionMode mode, Boolean leaveOpen, Int32 windowBits, Int64 uncompressedSize)
+   at System.IO.Compression.GZipStream..ctor(Stream stream, CompressionMode mode, Boolean leaveOpen)
+   at System.Net.Http.DecompressionHandler.GZipDecompressedContent.GetDecompressedStream(Stream originalStream)
+   at System.Net.Http.DecompressionHandler.DecompressedContent.SerializeToStreamAsync(Stream stream, TransportContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.LoadIntoBufferAsyncCore(Task serializeToStreamTask, MemoryStream tempBuffer)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.LocationServer.ConnectAsync(VssConnection jobConnection) in /Users/runner/work/1/s/src/Microsoft.VisualStudio.Services.Agent/LocationServer.cs:line 36
+[2025-02-07 15:53:11Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-07 15:53:11Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-07 15:53:11Z ERR  Terminal] System.Net.Http.HttpRequestException: Error while copying content to a stream.
+ ---> System.IO.Compression.ZLibException: The underlying compression routine could not be loaded correctly.
+ ---> System.DllNotFoundException: Unable to load shared library 'libSystem.IO.Compression.Native' or one of its dependencies. In order to help diagnose loading problems, consider setting the DYLD_PRINT_LIBRARIES environment variable: 
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib' (code signature in <D577B2A2-E9EC-3478-91AF-1DFFB1279242> '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib' not valid for use in process: library load disallowed by system policy), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib' (code signature in <D577B2A2-E9EC-3478-91AF-1DFFB1279242> '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native.dylib' not valid for use in process: library load disallowed by system policy)
+dlopen(libSystem.IO.Compression.Native.dylib, 0x0001): tried: 'libSystem.IO.Compression.Native.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibSystem.IO.Compression.Native.dylib' (no such file), '/usr/lib/libSystem.IO.Compression.Native.dylib' (no such file, not in dyld cache), 'libSystem.IO.Compression.Native.dylib' (no such file), '/usr/local/lib/libSystem.IO.Compression.Native.dylib' (no such file), '/usr/lib/libSystem.IO.Compression.Native.dylib' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native.dylib, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native.dylib' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native.dylib' (no such file)
+dlopen(liblibSystem.IO.Compression.Native.dylib, 0x0001): tried: 'liblibSystem.IO.Compression.Native.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSliblibSystem.IO.Compression.Native.dylib' (no such file), '/usr/lib/liblibSystem.IO.Compression.Native.dylib' (no such file, not in dyld cache), 'liblibSystem.IO.Compression.Native.dylib' (no such file), '/usr/local/lib/liblibSystem.IO.Compression.Native.dylib' (no such file), '/usr/lib/liblibSystem.IO.Compression.Native.dylib' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/libSystem.IO.Compression.Native' (no such file)
+dlopen(libSystem.IO.Compression.Native, 0x0001): tried: 'libSystem.IO.Compression.Native' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibSystem.IO.Compression.Native' (no such file), '/usr/lib/libSystem.IO.Compression.Native' (no such file, not in dyld cache), 'libSystem.IO.Compression.Native' (no such file), '/usr/local/lib/libSystem.IO.Compression.Native' (no such file), '/usr/lib/libSystem.IO.Compression.Native' (no such file, not in dyld cache)
+dlopen(/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native, 0x0001): tried: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native' (no such file), '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/liblibSystem.IO.Compression.Native' (no such file)
+dlopen(liblibSystem.IO.Compression.Native, 0x0001): tried: 'liblibSystem.IO.Compression.Native' (no such file), '/System/Volumes/Preboot/Cryptexes/OSliblibSystem.IO.Compression.Native' (no such file), '/usr/lib/liblibSystem.IO.Compression.Native' (no such file, not in dyld cache), 'liblibSystem.IO.Compression.Native' (no such file), '/usr/local/lib/liblibSystem.IO.Compression.Native' (no such file), '/usr/lib/liblibSystem.IO.Compression.Native' (no such file, not in dyld cache)
+
+   at System.IO.Compression.ZLibNative.ZLibStreamHandle.InflateInit2_(Int32 windowBits)
+   at System.IO.Compression.Inflater.InflateInit(Int32 windowBits)
+   --- End of inner exception stack trace ---
+   at System.IO.Compression.Inflater.InflateInit(Int32 windowBits)
+   at System.IO.Compression.DeflateStream..ctor(Stream stream, CompressionMode mode, Boolean leaveOpen, Int32 windowBits, Int64 uncompressedSize)
+   at System.IO.Compression.GZipStream..ctor(Stream stream, CompressionMode mode, Boolean leaveOpen)
+   at System.Net.Http.DecompressionHandler.GZipDecompressedContent.GetDecompressedStream(Stream originalStream)
+   at System.Net.Http.DecompressionHandler.DecompressedContent.SerializeToStreamAsync(Stream stream, TransportContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.LoadIntoBufferAsyncCore(Task serializeToStreamTask, MemoryStream tempBuffer)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.LocationServer.ConnectAsync(VssConnection jobConnection) in /Users/runner/work/1/s/src/Microsoft.VisualStudio.Services.Agent/LocationServer.cs:line 36
+   at Microsoft.VisualStudio.Services.Agent.Util.ServerUtil.GetConnectionData(String serverUrl, VssCredentials credentials, ILocationServer locationServer, Boolean skipServerCertificateValidation) in /Users/runner/work/1/s/src/Microsoft.VisualStudio.Services.Agent/Util/ServerUtil.cs:line 94
+   at Microsoft.VisualStudio.Services.Agent.Util.ServerUtil.DetermineDeploymentType(String serverUrl, VssCredentials credentials, ILocationServer locationServer, Boolean skipServerCertificateValidation) in /Users/runner/work/1/s/src/Microsoft.VisualStudio.Services.Agent/Util/ServerUtil.cs:line 85
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.ConfigurationManager.CheckIsHostedServer(IConfigurationProvider agentProvider, AgentSettings agentSettings, ICredentialProvider credProvider, Boolean skipServerCertificateValidation) in /Users/runner/work/1/s/src/Agent.Listener/Configuration/ConfigurationManager.cs:line 1010
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /Users/runner/work/1/s/src/Agent.Listener/Configuration/ConfigurationManager.cs:line 163
+[2025-02-07 15:53:11Z ERR  Terminal] WRITE ERROR: Failed to connect.  Try again or ctrl-c to quit
+[2025-02-07 15:53:11Z INFO CommandSettings] Arg 'url': ''
+[2025-02-07 15:53:11Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-07 15:53:11Z INFO PromptManager] ReadValue
+[2025-02-07 15:53:11Z INFO Terminal] WRITE: Enter server URL > 
+[2025-02-07 15:53:11Z INFO Terminal] READ LINE
+[2025-02-07 15:53:32Z INFO Terminal] Read value: 'https://dev.azure.com/muhammadaliraza'
+[2025-02-07 15:53:32Z INFO ConfigurationManager] GetCredentialProvider
+[2025-02-07 15:53:32Z INFO CommandSettings] Arg 'auth': ''
+[2025-02-07 15:53:32Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-07 15:53:32Z INFO PromptManager] ReadValue
+[2025-02-07 15:53:32Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2025-02-07 15:53:32Z INFO Terminal] READ LINE
+[2025-02-07 15:53:33Z INFO Terminal] Read value: ''
+[2025-02-07 15:53:33Z INFO PromptManager] Falling back to the default: 'PAT'
+[2025-02-07 15:53:33Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2025-02-07 15:53:33Z INFO CredentialManager] GetCredentialProvider
+[2025-02-07 15:53:33Z INFO CredentialManager] Creating type PAT
+[2025-02-07 15:53:33Z INFO CredentialManager] Creating credential type: PAT
+[2025-02-07 15:53:33Z INFO PersonalAccessToken] EnsureCredential
+[2025-02-07 15:53:33Z INFO CommandSettings] Arg 'token': ''
+[2025-02-07 15:53:33Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-07 15:53:33Z INFO PromptManager] ReadValue
+[2025-02-07 15:53:33Z INFO Terminal] WRITE: Enter personal access token > 
+[2025-02-07 15:53:33Z INFO Terminal] READ SECRET
+[2025-02-07 15:53:38Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2025-02-07 15:53:38Z INFO Terminal] Read value: '***'
+[2025-02-07 15:53:38Z INFO ConfigurationManager] cred retrieved
+[2025-02-07 15:53:38Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2025-02-07 15:53:38Z INFO PersonalAccessToken] GetVssCredentials
+[2025-02-07 15:53:38Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2025-02-07 15:53:38Z INFO PersonalAccessToken] cred created
+[2025-02-07 15:53:38Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 15:53:42Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 15:53:42Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 15:53:42Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 15:53:42Z INFO PersonalAccessToken] GetVssCredentials
+[2025-02-07 15:53:42Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2025-02-07 15:53:42Z INFO PersonalAccessToken] cred created
+[2025-02-07 15:53:42Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2025-02-07 15:53:42Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2025-02-07 15:53:42Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 15:53:42Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 15:53:42Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-02-07 15:53:43Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 15:53:43Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-02-07 15:53:43Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 15:53:43Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 15:53:43Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 15:53:43Z INFO ConfigurationManager] Test Connection complete.
+[2025-02-07 15:53:43Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:53:43Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:53:43Z INFO HostContext] Well known config file 'RSACredentials': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams'
+[2025-02-07 15:53:43Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2025-02-07 15:53:43Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 15:53:43Z INFO RSAFileKeyManager] Which: 'chmod'
+[2025-02-07 15:53:43Z INFO RSAFileKeyManager] Location: '{matches.First()}'
+[2025-02-07 15:53:43Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:53:43Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper] Starting process:
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper]   Arguments: '600 /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams'
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper]   Working directory: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper] Process started with process id 99195, waiting for process exit.
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper] Exited process 99195 with exit code 0
+[2025-02-07 15:53:43Z INFO ProcessInvokerWrapper] Finished process 99195 with exit code 0, and elapsed time 00:00:00.0578713.
+[2025-02-07 15:53:43Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 15:53:43Z INFO Terminal] WRITE LINE: 
+[2025-02-07 15:53:43Z INFO Terminal] WRITE LINE: >> Register Agent:
+[2025-02-07 15:53:43Z INFO Terminal] WRITE LINE: 
+[2025-02-07 15:53:43Z INFO CommandSettings] Arg 'pool': ''
+[2025-02-07 15:53:43Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-07 15:53:43Z INFO PromptManager] ReadValue
+[2025-02-07 15:53:43Z INFO Terminal] WRITE: Enter agent pool (press enter for default) > 
+[2025-02-07 15:53:43Z INFO Terminal] READ LINE
+[2025-02-07 15:53:59Z INFO Terminal] Read value: 'Testing'
+[2025-02-07 15:53:59Z INFO BuildReleasesAgentConfigProvider] Found pool Testing with id 10 and name Testing
+[2025-02-07 15:53:59Z INFO CommandSettings] Arg 'agent': ''
+[2025-02-07 15:53:59Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-07 15:53:59Z INFO PromptManager] ReadValue
+[2025-02-07 15:53:59Z INFO Terminal] WRITE: Enter agent name (press enter for MacBookAir) > 
+[2025-02-07 15:53:59Z INFO Terminal] READ LINE
+[2025-02-07 15:54:10Z INFO Terminal] Read value: ''
+[2025-02-07 15:54:10Z INFO PromptManager] Falling back to the default: 'MacBookAir'
+[2025-02-07 15:54:10Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2025-02-07 15:54:10Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2025-02-07 15:54:10Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-02-07 15:54:10Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-02-07 15:54:10Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-02-07 15:54:10Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding '_': './bin/Agent.Listener'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding '__CFBundleIdentifier': 'dev.warp.Warp-Stable'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'COLORTERM': 'truecolor'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'COMMAND_MODE': 'unix2003'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'CONDA_CHANGEPS1': 'false'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/Users/ali'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEBREW_PREFIX': '/opt/homebrew'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEBREW_REPOSITORY': '/opt/homebrew'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'INFOPATH': '/opt/homebrew/share/info:'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'JAVA_HOME': '/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_CTYPE': 'UTF-8'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'ali'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'OLDPWD': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/opt/homebrew/opt/mysql-client/bin:/opt/homebrew/opt/node@22/bin:/opt/homebrew/opt/mysql-client/bin:/opt/homebrew/opt/node@22/bin:/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.13/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/ali/.local/bin'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/zsh'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.D29T8IjWp7/Listeners'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_SOCKET_DIR': '~/.ssh'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM_PROGRAM'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM_PROGRAM_VERSION'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'TMPDIR': '/var/folders/x8/r22wrch10fx88fyk29s9j3h40000gn/T/'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'ali'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'WARP_HONOR_PS1': '0'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'WARP_IS_LOCAL_SHELL_SESSION': '1'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'WARP_USE_SSH_WRAPPER': '1'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'XPC_FLAGS': '0x0'
+[2025-02-07 15:54:10Z INFO EnvironmentCapabilitiesProvider] Adding 'XPC_SERVICE_NAME': '0'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'android'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Checking file: '/Users/ali/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'ant'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Adding 'bundler': '/usr/bin/bundle'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'clang'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Adding 'clang': '/usr/bin/clang'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'curl'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Adding 'curl': '/usr/bin/curl'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'docker'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Adding 'docker': '/usr/local/bin/docker'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'dotnet'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'git'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'java'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Adding 'java': '/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'javac'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Adding 'JDK': '/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/javac'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'make'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Adding 'make': '/usr/bin/make'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'node'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Adding 'node.js': '/opt/homebrew/opt/node@22/bin/node'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'npm'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Adding 'npm': '/opt/homebrew/opt/node@22/bin/npm'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'python'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'python3'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Adding 'python3': '/opt/homebrew/bin/python3'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'sh'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Adding 'sh': '/bin/sh'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'svn'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Adding 'ruby': '/usr/bin/ruby'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'rake'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Adding 'rake': '/usr/bin/rake'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'svn'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'generator'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper] Starting process:
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/xcode-select'
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper]   Arguments: '-p'
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper] Process started with process id 99334, waiting for process exit.
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper] Exited process 99334 with exit code 0
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 15:54:10Z INFO ProcessInvokerWrapper] Finished process 99334 with exit code 0, and elapsed time 00:00:00.0568140.
+[2025-02-07 15:54:10Z INFO CapabilitiesBuilder] Adding 'xcode': '/Library/Developer/CommandLineTools'
+[2025-02-07 15:54:10Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:54:10Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:54:10Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'MacBookAir'
+[2025-02-07 15:54:10Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Darwin'
+[2025-02-07 15:54:10Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'ARM64'
+[2025-02-07 15:54:10Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSVersion': '15.3'
+[2025-02-07 15:54:10Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'True'
+[2025-02-07 15:54:10Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '4.251.0'
+[2025-02-07 15:54:10Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'MacBookAir'
+[2025-02-07 15:54:10Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:54:10Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:54:10Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:54:10Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2025-02-07 15:54:11Z INFO Terminal] WRITE LINE: Successfully added the agent
+[2025-02-07 15:54:11Z INFO ConfigurationManager] Agent server url resolve by server: 'https://dev.azure.com/muhammadaliraza/'.
+[2025-02-07 15:54:11Z INFO ConfigurationStore] Saving OAuth credential @ /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials
+[2025-02-07 15:54:11Z INFO ConfigurationStore] Credentials Saved.
+[2025-02-07 15:54:11Z INFO Terminal] WRITE LINE: Testing agent connection.
+[2025-02-07 15:54:11Z INFO ConfigurationStore] HasCredentials()
+[2025-02-07 15:54:11Z INFO ConfigurationStore] stored True
+[2025-02-07 15:54:11Z INFO CredentialManager] GetCredentialProvider
+[2025-02-07 15:54:11Z INFO CredentialManager] Creating type OAuth
+[2025-02-07 15:54:11Z INFO CredentialManager] Creating credential type: OAuth
+[2025-02-07 15:54:11Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 15:54:11Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2025-02-07 15:54:11Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 15:54:11Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/f0f08964-6048-4827-b92d-049c07d4ba45, Basic realm="https://tfsprodcin2.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: e81184df-c502-4ba7-8e38-fdffdf70c972
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: b1c179fd-e2d1-434d-ae7e-31b5cc0aaaaa
+X-TFS-Session: 9251f6f6-6691-465e-a24f-2c5cc65e6ff5
+X-VSS-E2EID: a05780a6-34d9-4e4f-b117-aa026beb1615
+X-VSS-SenderDeploymentId: aa671e66-2da2-b247-ea94-ede72b24f5c9
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcin2.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/muhammadaliraza/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/muhammadaliraza/
+X-VSS-ResourceTenant: f0f08964-6048-4827-b92d-049c07d4ba45
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcin3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fmuhammadaliraza%2F_apis%2FconnectionData%3FconnectOptions%3D1%26lastChangeId%3D-1%26lastChangeId64%3D-1&redirect=1&mkt=en-PK&hid=6b947fb3-d928-4f4a-accf-7d92669d741b&context=eyJodCI6MiwiaGlkIjoiYTdhMWU2ZTEtNmI3MS00NjJiLTg0N2UtZjQyNzE3MzRiODRjIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5123a874-15d5-4ee8-bd3f-81c7fb764bd6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 0F93CB82DFAB4EFEBE9A23820A79071A Ref B: DXB20EDGE0220 Ref C: 2025-02-07T15:54:11Z
+Date: Fri, 07 Feb 2025 15:54:11 GMT
+
+[2025-02-07 15:54:11Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 15:54:11Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 15:54:12Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2025-02-07 15:54:12Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 15:54:12Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-02-07 15:54:12Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 15:54:12Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-02-07 15:54:12Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 15:54:13Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 15:54:13Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 15:54:13Z INFO CommandSettings] Arg 'work': ''
+[2025-02-07 15:54:13Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-07 15:54:13Z INFO PromptManager] ReadValue
+[2025-02-07 15:54:13Z INFO Terminal] WRITE: Enter work folder (press enter for _work) > 
+[2025-02-07 15:54:13Z INFO Terminal] READ LINE
+[2025-02-07 15:54:36Z INFO Terminal] Read value: ''
+[2025-02-07 15:54:36Z INFO PromptManager] Falling back to the default: '_work'
+[2025-02-07 15:54:36Z INFO CommandSettings] Flag 'disableloguploads': 'False'
+[2025-02-07 15:54:36Z INFO CommandSettings] Flag 'restreamlogstofiles': 'False'
+[2025-02-07 15:54:36Z INFO CommandSettings] Flag 'alwaysextracttask': 'False'
+[2025-02-07 15:54:36Z INFO ConfigurationStore] Saving agent settings.
+[2025-02-07 15:54:36Z INFO ConfigurationStore] Settings Saved.
+[2025-02-07 15:54:36Z INFO Terminal] WRITE LINE: 2025-02-07 15:54:36Z: Settings Saved.
+[2025-02-07 15:54:36Z INFO MacOSServiceControlManager] Service name 'vsts.agent.muhammadaliraza.Testing.MacBookAir' display name 'Azure Pipelines Agent (muhammadaliraza.Testing.MacBookAir)' will be used for service configuration.
+[2025-02-07 15:54:36Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:54:36Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:54:36Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:54:36Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 15:54:36Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:54:36Z INFO UnixUtil] Which: 'chmod'
+[2025-02-07 15:54:36Z INFO UnixUtil] Location: '{matches.First()}'
+[2025-02-07 15:54:36Z INFO UnixUtil] Running /bin/chmod 755 "/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/svc.sh"
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper] Starting process:
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper]   Arguments: '755 "/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/svc.sh"'
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper]   Working directory: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper] Process started with process id 99471, waiting for process exit.
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper] Exited process 99471 with exit code 0
+[2025-02-07 15:54:36Z INFO ProcessInvokerWrapper] Finished process 99471 with exit code 0, and elapsed time 00:00:00.0622045.
+[2025-02-07 15:54:36Z INFO ConfigurationStore] HasCredentials()
+[2025-02-07 15:54:36Z INFO ConfigurationStore] stored True
+[2025-02-07 15:54:36Z INFO CredentialManager] GetCredentialProvider
+[2025-02-07 15:54:36Z INFO CredentialManager] Creating type OAuth
+[2025-02-07 15:54:36Z INFO CredentialManager] Creating credential type: OAuth
+[2025-02-07 15:54:36Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 15:54:36Z INFO ConfigurationManager] LoadSettings
+[2025-02-07 15:54:36Z INFO ConfigurationStore] IsConfigured()
+[2025-02-07 15:54:36Z INFO ConfigurationStore] IsConfigured: True
+[2025-02-07 15:54:36Z INFO ConfigurationManager] Is configured: True
+[2025-02-07 15:54:36Z INFO ConfigurationStore] Read setting file: 195 chars
+[2025-02-07 15:54:36Z INFO ConfigurationManager] Settings Loaded
+[2025-02-07 15:54:36Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/f0f08964-6048-4827-b92d-049c07d4ba45, Basic realm="https://tfsprodcin2.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: e81184df-c502-4ba7-8e38-fdffdf70c972
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: b1c17721-e2d1-434d-ae7e-31b5cc0aaaaa
+X-TFS-Session: 9251f6f6-6691-465e-a24f-2c5cc65e6ff5
+X-VSS-E2EID: 15bc4c2f-87c6-44ff-9121-1512e95e4ed9
+X-VSS-SenderDeploymentId: aa671e66-2da2-b247-ea94-ede72b24f5c9
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcin2.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/muhammadaliraza/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/muhammadaliraza/
+X-VSS-ResourceTenant: f0f08964-6048-4827-b92d-049c07d4ba45
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcin3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fmuhammadaliraza%2F_apis%2FCustomerIntelligence%2FEvents&redirect=1&mkt=en-PK&hid=6b947fb3-d928-4f4a-accf-7d92669d741b&context=eyJodCI6MiwiaGlkIjoiYTdhMWU2ZTEtNmI3MS00NjJiLTg0N2UtZjQyNzE3MzRiODRjIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5123a874-15d5-4ee8-bd3f-81c7fb764bd6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: BCACEAE687D14597BB169DEED940796F Ref B: DXB20EDGE0115 Ref C: 2025-02-07T15:54:37Z
+Date: Fri, 07 Feb 2025 15:54:37 GMT
+
+[2025-02-07 15:54:36Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 15:54:36Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 15:54:37Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown

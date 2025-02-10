@@ -1,0 +1,1421 @@
+[2025-02-07 16:33:31Z INFO Program] Version: 4.251.0
+[2025-02-07 16:33:31Z INFO Program] Commit: 69c65179f56dda56424bcb957bb233f612875444
+[2025-02-07 16:33:31Z INFO Program] Culture: en-PK
+[2025-02-07 16:33:31Z INFO Program] UI Culture: en-PK
+[2025-02-07 16:33:31Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:31Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:31Z INFO HostContext] Well known config file 'Proxy': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.proxy'
+[2025-02-07 16:33:31Z INFO VstsAgentWebProxy] No proxy setting found.
+[2025-02-07 16:33:31Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:31Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:31Z INFO HostContext] Well known config file 'Certificates': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.certificates'
+[2025-02-07 16:33:31Z INFO AgentCertificateManager] No certificate setting found.
+[2025-02-07 16:33:31Z INFO Worker] Waiting to receive the job message from the channel.
+[2025-02-07 16:33:31Z INFO Worker] Message received.
+[2025-02-07 16:33:31Z INFO Worker] Deactivating vso commands in job message variables.
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-02-07 16:33:31Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-02-07 16:33:31Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-02-07 16:33:31Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-02-07 16:33:31Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-02-07 16:33:31Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-02-07 16:33:31Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-02-07 16:33:31Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-02-07 16:33:31Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-02-07 16:33:31Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-02-07 16:33:31Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_IdSignature
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_RepositoryIds
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_AccessToken
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_servicePrincipalId
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_loginServer
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_servicePrincipalKey
+[2025-02-07 16:33:31Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_AccessToken
+[2025-02-07 16:33:31Z INFO Worker] Job message:
+ {
+  "mask": [
+    {
+      "type": "regex",
+      "value": ***
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": ***
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***
+    },
+    {
+      "type": "regex",
+      "value": "***
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "inputs": {
+        "repository": "self",
+        "fetchDepth": "1"
+      },
+      "type": "task",
+      "reference": {
+        "id": "6d15af64-176c-496d-b583-fd2ae21d4df4",
+        "name": "Checkout",
+        "version": "1.0.0",
+        "buildConfig": "Default",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": false,
+      "id": "e77055a3-6358-5204-c080-7a2e41553284",
+      "name": "__system_1",
+      "displayName": "Checkout"
+    },
+    {
+      "inputs": {
+        "command": "buildAndPush",
+        "repository": "$(imageRepository)",
+        "dockerfile": "$(dockerfilePath)",
+        "containerRegistry": "f300766a-2c79-458f-8837-2074d48e635d",
+        "tags": "$(tag)\n"
+      },
+      "type": "task",
+      "reference": {
+        "id": "e28912f1-0114-4464-802a-a3a35437fd16",
+        "name": "Docker",
+        "version": "2.248.1",
+        "buildConfig": "Node20_229_2",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "f90788c4-9567-5b73-8a0d-1736388b7d37",
+      "name": "Docker",
+      "displayName": "Build and push an image to container registry"
+    }
+  ],
+  "variables": {
+    "dockerRegistryServiceConnection": {
+      "value": "f300766a-2c79-458f-8837-2074d48e635d"
+    },
+    "imageRepository": {
+      "value": "muhammadalirazanodejsappfordatadog"
+    },
+    "containerRegistry": {
+      "value": "***"
+    },
+    "dockerfilePath": {
+      "value": "$(Build.SourcesDirectory)/Dockerfile"
+    },
+    "tag": {
+      "value": "$(Build.BuildId)"
+    },
+    "resources.triggeringCategory": {
+      "value": ""
+    },
+    "resources.triggeringAlias": {
+      "value": ""
+    },
+    "system": {
+      "value": "build",
+      "isReadOnly": true
+    },
+    "system.hosttype": {
+      "value": "build",
+      "isReadOnly": true
+    },
+    "system.servertype": {
+      "value": "Hosted",
+      "isReadOnly": true
+    },
+    "system.culture": {
+      "value": "en-US",
+      "isReadOnly": true
+    },
+    "system.collectionId": {
+      "value": "6b947fb3-d928-4f4a-accf-7d92669d741b",
+      "isReadOnly": true
+    },
+    "system.collectionUri": {
+      "value": "https://dev.azure.com/muhammadaliraza/",
+      "isReadOnly": true
+    },
+    "system.teamFoundationCollectionUri": {
+      "value": "https://dev.azure.com/muhammadaliraza/",
+      "isReadOnly": true
+    },
+    "system.taskDefinitionsUri": {
+      "value": "https://dev.azure.com/muhammadaliraza/",
+      "isReadOnly": true
+    },
+    "system.pipelineStartTime": {
+      "value": "2025-02-07 16:33:26+00:00",
+      "isReadOnly": true
+    },
+    "system.teamProject": {
+      "value": "Nodejs-App-For-DataDog",
+      "isReadOnly": true
+    },
+    "system.teamProjectId": {
+      "value": "1b683071-24d6-4a05-a202-1be7d4d4947a",
+      "isReadOnly": true
+    },
+    "system.definitionId": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "build.definitionName": {
+      "value": "muhammadaliraza14.Nodejs-App-For-DataDog",
+      "isReadOnly": true
+    },
+    "build.repository.id": {
+      "value": "muhammadaliraza14/Nodejs-App-For-DataDog",
+      "isReadOnly": true
+    },
+    "build.repository.name": {
+      "value": "muhammadaliraza14/Nodejs-App-For-DataDog",
+      "isReadOnly": true
+    },
+    "build.repository.uri": {
+      "value": "https://github.com/muhammadaliraza14/Nodejs-App-For-DataDog",
+      "isReadOnly": true
+    },
+    "build.definitionVersion": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "USE_MSDEPLOY_TOKEN_AUTH": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.AgentEnablePipelineArtifactLargeChunkSize": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.CleanupPsModulesInPowershell": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ContinueAfterCancelProcessTreeKillAttempt": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.DockerActionRetries": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableIssueSourceValidation": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableResourceMonitorDebugOutput": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableResourceUtilizationWarnings": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailDeprecatedBuildTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailDeprecatedTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailJobWhenAgentDies": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FixPossibleGitOutOfMemoryProblem": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ForceUpdateToLatest2Version": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.IgnoreVSTSTaskLib": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.LogTaskNameInUserAgent": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.LogToBlobstorageService": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.MountWorkspace": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ReadOnlyVariables": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.Rosetta2Warning": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UploadBuildArtifactsToBlob": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UploadTimelineAttachmentsToBlob": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseDockerComposeV2CompatibleMode": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseFetchFilterInCheckoutTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseGitLongPaths": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseInteropToFindParentProcess": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseLatestGitVersion": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseMsalLibrary": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.USENEWNODEHANDLERTELEMETRY": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseSparseCheckoutInCheckoutTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseWorkspaceId": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.CopyFilesOverSSHV0UseQueue": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.RetireAzureRMPowerShellModule": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.useJacocoTemplateV2forSingleModule": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.UseLatestOpensslVersion": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "build.definitionFolderPath": {
+      "value": "\\",
+      "isReadOnly": true
+    },
+    "VSTSAGENT_CONTINUE_AFTER_CANCEL_PROCESSTREEKILL_ATTEMPT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "VSTSAGENT_DOCKER_ACTION_RETRIES": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_MSAL": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_COLLECT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_PH_LOGIC": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_CHECK_FOR_TASK_DEPRECATION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_MOUNT_WORKSPACE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_IGNORE_VSTSTASKLIB": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_PS_ENABLE_INVOKE_PROCESS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_DEPRECATED_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_LOG_TASKNAME_IN_USERAGENT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AGENT_USE_FETCH_FILTER_IN_CHECKOUT_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AGENT_USE_SPARSE_CHECKOUT_IN_CHECKOUT_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_OPENSSL_LATEST_VERSION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_LOGIC": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_LOGIC_LOG": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "AGENT_ENABLE_PIPELINEARTIFACT_LARGE_CHUNK_SIZE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_JOB_WHEN_AGENT_DIES": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_LATEST_GIT_VERSION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_GIT_LONG_PATHS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "ENABLE_ISSUE_SOURCE_VALIDATION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "RETIRE_AZURERM_POWERSHELL_MODULE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_ENABLE_RESOURCE_MONITOR_DEBUG_OUTPUT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_ENABLE_RESOURCE_UTILIZATION_WARNINGS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_DEPRECATED_BUILD_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_USE_INTEROP_TO_FIND_PARENT_PROCESS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "ROSETTA2_WARNING": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "COPYFILESOVERSSHV0_USE_QUEUE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "build.queuedBy": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.queuedById": {
+      "value": "c0200faa-1a56-6da3-8b95-f141ea80fbb9",
+      "isReadOnly": true
+    },
+    "build.requestedFor": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.requestedForId": {
+      "value": "c0200faa-1a56-6da3-8b95-f141ea80fbb9",
+      "isReadOnly": true
+    },
+    "build.requestedForEmail": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceVersion": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceBranch": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceBranchName": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.reason": {
+      "value": "Manual",
+      "isReadOnly": true
+    },
+    "system.pullRequest.isFork": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "system.jobParallelismTag": {
+      "value": "Private",
+      "isReadOnly": true
+    },
+    "system.enableAccessToken": {
+      "value": "SecretVariable",
+      "isReadOnly": true
+    },
+    "MSDEPLOY_HTTP_USER_AGENT": {
+      "value": "VSTS_6b947fb3-d928-4f4a-accf-7d92669d741b_build_1_0",
+      "isReadOnly": true
+    },
+    "AZURE_HTTP_USER_AGENT": {
+      "value": "VSTS_6b947fb3-d928-4f4a-accf-7d92669d741b_build_1_0",
+      "isReadOnly": true
+    },
+    "build.buildId": {
+      "value": "9",
+      "isReadOnly": true
+    },
+    "build.buildUri": {
+      "value": "vstfs:///Build/Build/9",
+      "isReadOnly": true
+    },
+    "build.buildNumber": {
+      "value": "20250207.9",
+      "isReadOnly": true
+    },
+    "build.containerId": {
+      "value": "38646",
+      "isReadOnly": true
+    },
+    "system.isScheduled": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "system.definitionName": {
+      "value": "muhammadaliraza14.Nodejs-App-For-DataDog",
+      "isReadOnly": true
+    },
+    "system.planId": {
+      "value": "325b6ac0-a107-4711-8b00-b982f1e2a759",
+      "isReadOnly": true
+    },
+    "system.timelineId": {
+      "value": "325b6ac0-a107-4711-8b00-b982f1e2a759",
+      "isReadOnly": true
+    },
+    "system.stageDisplayName": {
+      "value": "Build and push stage",
+      "isReadOnly": true
+    },
+    "system.stageId": {
+      "value": "6884a131-87da-5381-61f3-d7acc3b91d76",
+      "isReadOnly": true
+    },
+    "system.stageName": {
+      "value": "Build",
+      "isReadOnly": true
+    },
+    "system.stageAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.phaseDisplayName": {
+      "value": "Build",
+      "isReadOnly": true
+    },
+    "system.phaseId": {
+      "value": "a11efe29-9b58-5a6c-3fa4-3e36996dcbd8",
+      "isReadOnly": true
+    },
+    "system.phaseName": {
+      "value": "Build",
+      "isReadOnly": true
+    },
+    "system.phaseAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.jobIdentifier": {
+      "value": "Build.Build.__default",
+      "isReadOnly": true
+    },
+    "system.jobAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "System.JobPositionInPhase": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.jobDisplayName": {
+      "value": "Build",
+      "isReadOnly": true
+    },
+    "system.jobId": {
+      "value": "3dc8fd7e-4368-5a92-293e-d53cefc8c4b3",
+      "isReadOnly": true
+    },
+    "system.jobName": {
+      "value": "__default",
+      "isReadOnly": true
+    },
+    "system.jobTimeout": {
+      "value": "60",
+      "isReadOnly": true
+    },
+    "system.accessToken": {
+      "value": ***
+      "isSecret": true
+    },
+    "agent.retainDefaultEncoding": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "agent.LogToBlobstorageService": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.UploadBuildArtifactsToBlob": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.UploadTimelineAttachmentsToBlob": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.readOnlyVariables": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.useWorkspaceId": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "system.postLinesSpeed": {
+      "value": "500",
+      "isReadOnly": true
+    },
+    "system.preferRedirectGetContainerItem": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.taskRestrictionsEnforcementMode": {
+      "value": "Enabled",
+      "isReadOnly": true
+    },
+    "System.OidcRequestUri": {
+      "value": "https://dev.azure.com/muhammadaliraza/1b683071-24d6-4a05-a202-1be7d4d4947a/_apis/distributedtask/hubs/build/plans/325b6ac0-a107-4711-8b00-b982f1e2a759/jobs/3dc8fd7e-4368-5a92-293e-d53cefc8c4b3/oidctoken",
+      "isReadOnly": true
+    },
+    "agent.disablelogplugin.TestResultLogPlugin": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.disablelogplugin.TestFilePublisherPlugin": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "build.sourceVersionAuthor": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceVersionMessage": {
+      "value": "Update azure-pipelines.yml for Azure Pipelines",
+      "isReadOnly": true
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "1b683071-24d6-4a05-a202-1be7d4d4947a",
+    "planType": "Build",
+    "version": 18,
+    "planId": "325b6ac0-a107-4711-8b00-b982f1e2a759",
+    "planGroup": "Build:1b683071-24d6-4a05-a202-1be7d4d4947a:9",
+    "artifactUri": "vstfs:///Build/Build/9",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {
+        "web": {
+          "href": "https://dev.azure.com/muhammadaliraza/1b683071-24d6-4a05-a202-1be7d4d4947a/_build/definition?definitionId=1"
+        },
+        "self": {
+          "href": "https://dev.azure.com/muhammadaliraza/1b683071-24d6-4a05-a202-1be7d4d4947a/_apis/build/Definitions/1"
+        }
+      },
+      "id": 1,
+      "name": "muhammadaliraza14.Nodejs-App-For-DataDog"
+    },
+    "owner": {
+      "_links": {
+        "web": {
+          "href": "https://dev.azure.com/muhammadaliraza/1b683071-24d6-4a05-a202-1be7d4d4947a/_build/results?buildId=9"
+        },
+        "self": {
+          "href": "https://dev.azure.com/muhammadaliraza/1b683071-24d6-4a05-a202-1be7d4d4947a/_apis/build/Builds/9"
+        }
+      },
+      "id": 9,
+      "name": "20250207.9"
+    }
+  },
+  "timeline": {
+    "id": "325b6ac0-a107-4711-8b00-b982f1e2a759",
+    "changeId": 6,
+    "location": null
+  },
+  "jobId": "3dc8fd7e-4368-5a92-293e-d53cefc8c4b3",
+  "jobDisplayName": "Build",
+  "jobName": "__default",
+  "jobContainer": null,
+  "requestId": 0,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "pipelinesSourceProvider": "github",
+          "AvatarUrl": "https://avatars.githubusercontent.com/u/129799422?v=4"
+        },
+        "id": "ad9a66f4-b22a-4901-962a-02b837873dbd",
+        "name": "muhammadaliraza14",
+        "type": "GitHub",
+        "owner": "Library",
+        "url": "https://github.com",
+        "createdBy": {
+          "displayName": "Muhammad Ali Raza",
+          "url": "https://spsprodcin3.vssps.visualstudio.com/Aa7a1e6e1-6b71-462b-847e-f4271734b84c/_apis/Identities/c0200faa-1a56-6da3-8b95-f141ea80fbb9",
+          "_links": {
+            "avatar": {
+              "href": "https://dev.azure.com/muhammadaliraza/_apis/GraphProfile/MemberAvatars/aad.YzAyMDBmYWEtMWE1Ni03ZGEzLThiOTUtZjE0MWVhODBmYmI5"
+            }
+          },
+          "id": "c0200faa-1a56-6da3-8b95-f141ea80fbb9",
+          "uniqueName": "aligee5121472@outlook.com",
+          "imageUrl": "https://dev.azure.com/muhammadaliraza/_apis/GraphProfile/MemberAvatars/aad.YzAyMDBmYWEtMWE1Ni03ZGEzLThiOTUtZjE0MWVhODBmYmI5",
+          "descriptor": "aad.YzAyMDBmYWEtMWE1Ni03ZGEzLThiOTUtZjE0MWVhODBmYmI5"
+        },
+        "description": "",
+        "authorization": {
+          "parameters": {
+            "IdToken": "60690871",
+            "IdSignature": "***
+            "RepositoryIds": "***",
+            "AccessToken": ***
+          },
+          "scheme": "Token"
+        },
+        "serviceManagementReference": null,
+        "isShared": false,
+        "isReady": true
+      },
+      {
+        "data": {
+          "registrytype": "ACR",
+          "registryId": "/subscriptions/29554066-9eb8-42f4-a866-d36b7510789c/resourceGroups/rgACR/providers/Microsoft.ContainerRegistry/registries/mynewcontainerregistry1",
+          "subscriptionId": "29554066-9eb8-42f4-a866-d36b7510789c",
+          "subscriptionName": "Azure subscription 1",
+          "appObjectId": "f4cd23cf-92fb-408a-b7b7-91d3ffd50711",
+          "spnObjectId": "6897cb89-3a44-4084-a959-f6b2d3c8e7cc",
+          "azureSpnPermissions": "[{\"roleAssignmentId\":\"8f53a25b-1363-4e30-bddd-b5cfa4180f8b\",\"resourceProvider\":\"Microsoft.RoleAssignment\",\"provisioned\":true}]",
+          "azureSpnRoleAssignmentId": "8f53a25b-1363-4e30-bddd-b5cfa4180f8b",
+          "environmentUrl": "https://management.azure.com/",
+          "serviceManagementUrl": "https://management.core.windows.net/",
+          "resourceManagerUrl": "https://management.azure.com/",
+          "activeDirectoryAuthority": "https://login.microsoftonline.com/",
+          "environmentAuthorityUrl": "https://login.windows.net/",
+          "activeDirectoryServiceEndpointResourceId": "https://management.core.windows.net/",
+          "EnableAdfsAuthentication": "false"
+        },
+        "id": "f300766a-2c79-458f-8837-2074d48e635d",
+        "name": "mynewcontainerregistry1",
+        "type": "dockerregistry",
+        "owner": "Library",
+        "url": "https://management.azure.com/",
+        "createdBy": {
+          "displayName": "Muhammad Ali Raza",
+          "url": "https://spsprodcin3.vssps.visualstudio.com/Aa7a1e6e1-6b71-462b-847e-f4271734b84c/_apis/Identities/c0200faa-1a56-6da3-8b95-f141ea80fbb9",
+          "_links": {
+            "avatar": {
+              "href": "https://dev.azure.com/muhammadaliraza/_apis/GraphProfile/MemberAvatars/aad.YzAyMDBmYWEtMWE1Ni03ZGEzLThiOTUtZjE0MWVhODBmYmI5"
+            }
+          },
+          "id": "c0200faa-1a56-6da3-8b95-f141ea80fbb9",
+          "uniqueName": "aligee5121472@outlook.com",
+          "imageUrl": "https://dev.azure.com/muhammadaliraza/_apis/GraphProfile/MemberAvatars/aad.YzAyMDBmYWEtMWE1Ni03ZGEzLThiOTUtZjE0MWVhODBmYmI5",
+          "descriptor": "aad.YzAyMDBmYWEtMWE1Ni03ZGEzLThiOTUtZjE0MWVhODBmYmI5"
+        },
+        "description": "",
+        "authorization": {
+          "parameters": {
+            "tenantId": "f0f08964-6048-4827-b92d-049c07d4ba45",
+            "servicePrincipalId": "***",
+            "scope": "/subscriptions/29554066-9eb8-42f4-a866-d36b7510789c/resourceGroups/rgACR/providers/Microsoft.ContainerRegistry/registries/mynewcontainerregistry1",
+            "loginServer": "***",
+            "servicePrincipalKey": ***
+          },
+          "scheme": "serviceprincipal"
+        },
+        "serviceManagementReference": null,
+        "isShared": false,
+        "isReady": true,
+        "operationStatus": {
+          "state": "Ready",
+          "statusMessage": "",
+          "severity": null,
+          "errorCode": null
+        }
+      },
+      {
+        "data": {
+          "ServerId": "6b947fb3-d928-4f4a-accf-7d92669d741b",
+          "ServerName": "muhammadaliraza"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://dev.azure.com/muhammadaliraza/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "serviceManagementReference": null,
+        "isShared": false,
+        "isReady": true
+      }
+    ],
+    "repositories": [
+      {
+        "properties": {
+          "id": "muhammadaliraza14/Nodejs-App-For-DataDog",
+          "type": "GitHub",
+          "version": "6524c5932376b04b3b908fe5fdf3b711a8aeb89a",
+          "name": "muhammadaliraza14/Nodejs-App-For-DataDog",
+          "ref": "refs/heads/main",
+          "defaultBranch": "refs/heads/main",
+          "externalId": "***",
+          "project": "1b683071-24d6-4a05-a202-1be7d4d4947a",
+          "url": "https://github.com:443/muhammadaliraza14/Nodejs-App-For-DataDog",
+          "versionInfo": {
+            "author": "[PII]"
+          },
+          "isRoot": true,
+          "checkoutOptions": {
+            "fetchDepth": "1"
+          }
+        },
+        "alias": "self",
+        "endpoint": {
+          "id": "ad9a66f4-b22a-4901-962a-02b837873dbd"
+        }
+      }
+    ]
+  },
+  "workspace": {}
+}
+[2025-02-07 16:33:31Z INFO JobRunner] Job ID 3dc8fd7e-4368-5a92-293e-d53cefc8c4b3
+[2025-02-07 16:33:31Z INFO JobRunner] Creating job server with URL: https://dev.azure.com/muhammadaliraza/
+[2025-02-07 16:33:31Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 16:33:31Z INFO Worker] Listening for cancel message from the channel.
+[2025-02-07 16:33:31Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2025-02-07 16:33:32Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 16:33:32Z INFO JobServerQueue] Start process web console line queue.
+[2025-02-07 16:33:32Z INFO JobServerQueue] Start process file upload queue.
+[2025-02-07 16:33:32Z INFO JobServerQueue] Start process timeline update queue.
+[2025-02-07 16:33:32Z INFO ConfigurationStore] currentAssemblyLocation: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/Agent.Worker.dll
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO ConfigurationStore] binPath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO ConfigurationStore] RootFolder: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known config file 'Agent': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.agent'
+[2025-02-07 16:33:32Z INFO ConfigurationStore] ConfigFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.agent
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known config file 'Credentials': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials'
+[2025-02-07 16:33:32Z INFO ConfigurationStore] CredFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known config file 'Service': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.service'
+[2025-02-07 16:33:32Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.service
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known config file 'Autologon': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.autologon'
+[2025-02-07 16:33:32Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.autologon
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known config file 'Options': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.options'
+[2025-02-07 16:33:32Z INFO ConfigurationStore] RuntimeOptionsFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.options
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known config file 'SetupInfo': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.setup_info'
+[2025-02-07 16:33:32Z INFO ConfigurationStore] SetupInfoFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.setup_info
+[2025-02-07 16:33:32Z INFO ConfigurationStore] Read setting file: 195 chars
+[2025-02-07 16:33:32Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-02-07 16:33:32Z INFO ExecutionContext] WorkspaceIdentifier '843f59ae7d2f7cf07d23d8a894713672afb6b994' created for repos Microsoft.VisualStudio.Services.Agent.Worker.Build.RepositoryTrackingInfo
+[2025-02-07 16:33:32Z INFO HostContext] Removing short secrets from masking dictionary
+[2025-02-07 16:33:32Z INFO JobRunner] Starting the job execution context.
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO JobRunner] Validating directory permissions for: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Tools': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/_tool'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Temp': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/_temp'
+[2025-02-07 16:33:32Z INFO JobRunner] Creating task server with https://dev.azure.com/muhammadaliraza/
+[2025-02-07 16:33:32Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 16:33:32Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 16:33:32Z INFO JobRunner] Getting job extension.
+[2025-02-07 16:33:32Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BuildJobExtension, Agent.Worker
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.ReleaseJobExtension, Agent.Worker
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.DeploymentJobExtension, Agent.Worker
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Maintenance.MaintenanceJobExtension, Agent.Worker
+[2025-02-07 16:33:32Z INFO JobRunner] Initialize job. Getting all job steps.
+[2025-02-07 16:33:32Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-02-07 16:33:32Z INFO BuildJobExtension] Image version for job id 3dc8fd7e-4368-5a92-293e-d53cefc8c4b3 is not set
+[2025-02-07 16:33:32Z INFO BuildJobExtension] Run initial step from extension BuildJobExtension.
+[2025-02-07 16:33:32Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.ExternalGitSourceProvider, Agent.Worker
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.GitHubSourceProvider, Agent.Worker
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.GitHubEnterpriseSourceProvider, Agent.Worker
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BitbucketSourceProvider, Agent.Worker
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.SvnSourceProvider, Agent.Worker
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.TfsGitSourceProvider, Agent.Worker
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.TfsVCSourceProvider, Agent.Worker
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO BuildDirectoryManager] Checking if artifacts directory exists: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/1/a'
+[2025-02-07 16:33:32Z INFO BuildDirectoryManager] Creating artifacts directory.
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO BuildDirectoryManager] Checking if test results directory exists: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/1/TestResults'
+[2025-02-07 16:33:32Z INFO BuildDirectoryManager] Creating test results directory.
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO BuildDirectoryManager] Set repository path for repository self to '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/1/s'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO BuildJobExtension] Checking repository name self
+[2025-02-07 16:33:32Z INFO BuildJobExtension] Downloading task definitions.
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known config file 'TaskExceptionList': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/tasks-exception-list.json'
+[2025-02-07 16:33:32Z INFO TaskManager] Skip download checkout task.
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Tasks': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/_tasks'
+[2025-02-07 16:33:32Z INFO TaskManager] Ensuring task exists: ID 'e28912f1-0114-4464-802a-a3a35437fd16', version '2.248.1', name 'Docker', directory '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/_tasks/Docker_e28912f1-0114-4464-802a-a3a35437fd16/2.248.1'.
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Tasks': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/_tasks'
+[2025-02-07 16:33:32Z INFO BuildJobExtension] Downloading Node 6 runner.
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Externals': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/externals'
+[2025-02-07 16:33:32Z INFO NodeJsUtil] Node 6 runner already exist.
+[2025-02-07 16:33:32Z INFO BuildJobExtension] Parsing all task's condition inputs.
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Tasks': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/_tasks'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Tasks': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/_tasks'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'TaskZips': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/_taskzips'
+[2025-02-07 16:33:32Z INFO TaskManager] Loading task definition '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/_tasks/Docker_e28912f1-0114-4464-802a-a3a35437fd16/2.248.1/task.json'.
+[2025-02-07 16:33:32Z INFO BuildJobExtension] Adding pre-job step from extension.
+[2025-02-07 16:33:32Z INFO BuildJobExtension] Adding post-job step from extension.
+[2025-02-07 16:33:32Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-02-07 16:33:32Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-02-07 16:33:32Z INFO BuildJobExtension] Adding post-job steps from tasks.
+[2025-02-07 16:33:32Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-02-07 16:33:32Z INFO BuildJobExtension] Total accessible running process: 378.
+[2025-02-07 16:33:32Z INFO JobRunner] Total job steps: 3.
+[2025-02-07 16:33:32Z INFO JobRunner] Run all job steps.
+[2025-02-07 16:33:32Z INFO AsyncCommandContext] Start flush buffered output.
+[2025-02-07 16:33:32Z INFO AsyncCommandContext] Finsh flush buffered output.
+[2025-02-07 16:33:32Z INFO AsyncCommandContext] Wait till async command task to finish.
+[2025-02-07 16:33:32Z INFO StepsRunner] Caught exception from async command DetectDockerContainer: System.IO.DirectoryNotFoundException: Could not find a part of the path '/proc/1/cgroup'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadLines(String path)
+   at Agent.Sdk.PlatformUtil.DetectDockerContainer() in /Users/runner/work/1/s/src/Agent.Sdk/Util/PlatformUtil.cs:line 407
+   at Microsoft.VisualStudio.Services.Agent.Worker.JobRunner.<>c__DisplayClass4_0.<RunAsync>b__3() in /Users/runner/work/1/s/src/Agent.Worker/JobRunner.cs:line 200
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.VisualStudio.Services.Agent.Worker.AsyncCommandContext.WaitAsync() in /Users/runner/work/1/s/src/Agent.Worker/AsyncCommandContext.cs:line 130
+   at Microsoft.VisualStudio.Services.Agent.Worker.StepsRunner.RunAsync(IExecutionContext jobContext, IList`1 steps) in /Users/runner/work/1/s/src/Agent.Worker/StepsRunner.cs:line 65
+[2025-02-07 16:33:32Z INFO AsyncCommandContext] Start flush buffered output.
+[2025-02-07 16:33:32Z INFO AsyncCommandContext] Finsh flush buffered output.
+[2025-02-07 16:33:32Z INFO AsyncCommandContext] Wait till async command task to finish.
+[2025-02-07 16:33:32Z INFO StepsRunner] Caught exception from async command DetectDockerContainer: System.IO.DirectoryNotFoundException: Could not find a part of the path '/proc/1/cgroup'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadLines(String path)
+   at Agent.Sdk.PlatformUtil.DetectDockerContainer() in /Users/runner/work/1/s/src/Agent.Sdk/Util/PlatformUtil.cs:line 407
+   at Microsoft.VisualStudio.Services.Agent.Worker.JobRunner.<>c__DisplayClass4_0.<RunAsync>b__3() in /Users/runner/work/1/s/src/Agent.Worker/JobRunner.cs:line 200
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.VisualStudio.Services.Agent.Worker.AsyncCommandContext.WaitAsync() in /Users/runner/work/1/s/src/Agent.Worker/AsyncCommandContext.cs:line 130
+   at Microsoft.VisualStudio.Services.Agent.Worker.StepsRunner.RunAsync(IExecutionContext jobContext, IList`1 steps) in /Users/runner/work/1/s/src/Agent.Worker/StepsRunner.cs:line 65
+[2025-02-07 16:33:32Z INFO StepsRunner] Processing step: DisplayName='Checkout muhammadaliraza14/Nodejs-App-For-DataDog@main to s', ContinueOnError=False, Enabled=True
+[2025-02-07 16:33:32Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2025-02-07 16:33:32Z INFO ExpressionManager] Result: True
+[2025-02-07 16:33:32Z INFO StepsRunner] Starting the step.
+[2025-02-07 16:33:32Z INFO TaskRunner] Allow publishing telemetry for Checkout@1.0.0 task: True
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Tasks': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/_tasks'
+[2025-02-07 16:33:32Z INFO TaskRunner] Get handler data for target platform OSX
+[2025-02-07 16:33:32Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.AgentPluginHandlerData
+[2025-02-07 16:33:32Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IWorkerCommandExtension'
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.TaskCommandExtension, Agent.Worker
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.ArtifactCommandExtension, Agent.Worker
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BuildCommandExtension, Agent.Worker
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.CodeCoverage.CodeCoverageCommandExtension, Agent.Worker
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.TestResults.ResultsCommandExtension, Agent.Worker
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Telemetry.TelemetryCommandExtension, Agent.Worker
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.ReleaseCommandExtension, Agent.Worker
+[2025-02-07 16:33:32Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.PluginInternalCommandExtension, Agent.Worker
+[2025-02-07 16:33:32Z INFO WorkerCommandManager] Register command extension for area task
+[2025-02-07 16:33:32Z INFO WorkerCommandManager] Register command extension for area artifact
+[2025-02-07 16:33:32Z INFO WorkerCommandManager] Register command extension for area build
+[2025-02-07 16:33:32Z INFO WorkerCommandManager] Register command extension for area codecoverage
+[2025-02-07 16:33:32Z INFO WorkerCommandManager] Register command extension for area results
+[2025-02-07 16:33:32Z INFO WorkerCommandManager] Register command extension for area telemetry
+[2025-02-07 16:33:32Z INFO WorkerCommandManager] Register command extension for area release
+[2025-02-07 16:33:32Z INFO WorkerCommandManager] Register command extension for area plugininternal
+[2025-02-07 16:33:32Z INFO AgentPluginHandler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper] Starting process:
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   File name: 'vm_stat'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Arguments: ''
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-02-07 16:33:32Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3dc8fd7e-4368-5a92-293e-d53cefc8c4b3', success rate: 1/1.
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper] Process started with process id 14648, waiting for process exit.
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper] Exited process 14648 with exit code 0
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper] Finished process 14648 with exit code 0, and elapsed time 00:00:00.0328248.
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper] Starting process:
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   File name: '/bin/bash'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Arguments: '-c "top -l 2 -o cpu | grep ^CPU"'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper] Process started with process id 14649, waiting for process exit.
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.Repository.CheckoutTask, Agent.Plugins'.
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Loaded task plugin id '6d15af64-176c-496d-b583-fd2ae21d4df4' (main).
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.Repository.CleanupTask, Agent.Plugins'.
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Loaded task plugin id '6d15af64-176c-496d-b583-fd2ae21d4df4' (post).
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTask, Agent.Plugins'.
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTask, Agent.Plugins'.
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTaskV1, Agent.Plugins'.
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1, Agent.Plugins'.
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_0, Agent.Plugins'.
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineCache.SavePipelineCacheV0, Agent.Plugins'.
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Loaded task plugin id 'd53ccab4-555e-4494-9d06-11db043fb4a9' (post).
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineCache.RestorePipelineCacheV0, Agent.Plugins'.
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Loaded task plugin id 'd53ccab4-555e-4494-9d06-11db043fb4a9' (main).
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_1, Agent.Plugins'.
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_2, Agent.Plugins'.
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_3, Agent.Plugins'.
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV2_0_0, Agent.Plugins'.
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTaskV0_140_0, Agent.Plugins'.
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.BuildArtifacts.DownloadBuildArtifactTaskV1_0_0, Agent.Plugins'.
+[2025-02-07 16:33:32Z INFO AgentPluginManager] Loaded task plugin id 'a433f589-fce1-4460-9ee6-44a624aeb1fb' (main).
+[2025-02-07 16:33:32Z INFO WorkerCommandManager] Enable plugin internal command extension.
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper] Starting process:
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   File name: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/Agent.PluginHost'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Arguments: 'task "Agent.Plugins.Repository.CheckoutTask, Agent.Plugins"'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Working directory: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'True'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper] Process started with process id 14652, waiting for process exit.
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper] Close STDIN after the first redirect finished.
+[2025-02-07 16:33:32Z INFO ProcessInvokerWrapper] STDIN stream write finished.
+[2025-02-07 16:33:33Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 16:33:33Z INFO HostContext] Setting up value for origin: TaskSetSecretCommand
+[2025-02-07 16:33:33Z INFO JobServerQueue] Try to append 1 batches web console lines for record '2942d566-f8a1-4293-8f8f-cc87f928da17', success rate: 1/1.
+[2025-02-07 16:33:33Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3dc8fd7e-4368-5a92-293e-d53cefc8c4b3', success rate: 1/1.
+[2025-02-07 16:33:33Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e77055a3-6358-5204-c080-7a2e41553284', success rate: 1/1.
+[2025-02-07 16:33:33Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 16:33:33Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 16:33:34Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e77055a3-6358-5204-c080-7a2e41553284', success rate: 1/1.
+[2025-02-07 16:33:34Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 16:33:34Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:33:34Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:33:34Z INFO ProcessInvokerWrapper] Exited process 14649 with exit code 0
+[2025-02-07 16:33:34Z INFO ProcessInvokerWrapper] Finished process 14649 with exit code 0, and elapsed time 00:00:01.7866190.
+[2025-02-07 16:33:35Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e77055a3-6358-5204-c080-7a2e41553284', success rate: 1/1.
+[2025-02-07 16:33:35Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-02-07 16:33:36Z INFO HostContext] Setting up value for origin: Variables_Set_repoUrlWithCred
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Exited process 14652 with exit code 0
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Finished process 14652 with exit code 0, and elapsed time 00:00:03.3876240.
+[2025-02-07 16:33:36Z INFO WorkerCommandManager] Disable plugin internal command extension.
+[2025-02-07 16:33:36Z INFO StepsRunner] Step result: 
+[2025-02-07 16:33:36Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-02-07 16:33:36Z INFO StepsRunner] Current state: job state = ''
+[2025-02-07 16:33:36Z INFO StepsRunner] Processing step: DisplayName='Build and push an image to container registry', ContinueOnError=False, Enabled=True
+[2025-02-07 16:33:36Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2025-02-07 16:33:36Z INFO ExpressionManager] Result: True
+[2025-02-07 16:33:36Z INFO StepsRunner] Starting the step.
+[2025-02-07 16:33:36Z INFO TaskRunner] Allow publishing telemetry for Docker@2.248.1 task: True
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Tasks': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/_tasks'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'TaskZips': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/_taskzips'
+[2025-02-07 16:33:36Z INFO TaskManager] Loading task definition '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/_tasks/Docker_e28912f1-0114-4464-802a-a3a35437fd16/2.248.1/task.json'.
+[2025-02-07 16:33:36Z INFO TaskRunner] Get handler data for target platform OSX
+[2025-02-07 16:33:36Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.Node20_1HandlerData
+[2025-02-07 16:33:36Z INFO TaskRunner] The original input is a rooted path, return absolute path: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/1/s/Dockerfile
+[2025-02-07 16:33:36Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2025-02-07 16:33:36Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2025-02-07 16:33:36Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: **
+[2025-02-07 16:33:36Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/1/s
+[2025-02-07 16:33:36Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/1/s/**
+[2025-02-07 16:33:36Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/1/s/**
+[2025-02-07 16:33:36Z INFO TaskRunner] Build JobExtension resolved a rooted path:: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/1/s/**
+[2025-02-07 16:33:36Z INFO NodeHandler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-02-07 16:33:36Z INFO TaskRunner] Current handler is Node. Trying to determing the SDK version.
+[2025-02-07 16:33:36Z INFO TaskRunner] Node SDK version: 4.13.0. Correlation ID is required: True.
+[2025-02-07 16:33:36Z INFO NodeHandler] AZP_AGENT_IGNORE_VSTSTASKLIB enabled, ignoring fix
+[2025-02-07 16:33:36Z INFO NodeHandler] Task.json has node20_1 handler data: True node20ResultsInGlibCError = False
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Externals': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/externals'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Externals': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/externals'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Starting process:
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   File name: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/externals/node20_1/bin/node'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Arguments: '"/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/_tasks/Docker_e28912f1-0114-4464-802a-a3a35437fd16/2.248.1/docker.js"'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Working directory: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/1/s'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Process started with process id 14692, waiting for process exit.
+[2025-02-07 16:33:36Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e77055a3-6358-5204-c080-7a2e41553284', success rate: 1/1.
+[2025-02-07 16:33:36Z INFO HostContext] Setting up value for origin: TaskSetVariableCommand
+[2025-02-07 16:33:36Z INFO HostContext] Setting up value for origin: Variables_Set_CONTAINER_AUTHENTICATIONTOKEN
+[2025-02-07 16:33:36Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f90788c4-9567-5b73-8a0d-1736388b7d37', success rate: 1/1.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Exited process 14692 with exit code 0
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Finished process 14692 with exit code 0, and elapsed time 00:00:00.3817878.
+[2025-02-07 16:33:36Z INFO StepsRunner] Step result: Failed
+[2025-02-07 16:33:36Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2025-02-07 16:33:36Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-02-07 16:33:36Z INFO StepsRunner] Processing step: DisplayName='Checkout muhammadaliraza14/Nodejs-App-For-DataDog@main to s', ContinueOnError=False, Enabled=True
+[2025-02-07 16:33:36Z INFO ExpressionManager] Evaluating: AlwaysNode()
+[2025-02-07 16:33:36Z INFO ExpressionManager] Result: True
+[2025-02-07 16:33:36Z INFO StepsRunner] Starting the step.
+[2025-02-07 16:33:36Z INFO TaskRunner] Allow publishing telemetry for Checkout@1.0.0 task: True
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Tasks': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/_tasks'
+[2025-02-07 16:33:36Z INFO TaskRunner] Get handler data for target platform OSX
+[2025-02-07 16:33:36Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.AgentPluginHandlerData
+[2025-02-07 16:33:36Z INFO AgentPluginHandler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-02-07 16:33:36Z INFO WorkerCommandManager] Enable plugin internal command extension.
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Starting process:
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   File name: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/Agent.PluginHost'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Arguments: 'task "Agent.Plugins.Repository.CleanupTask, Agent.Plugins"'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Working directory: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'True'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Process started with process id 14696, waiting for process exit.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Close STDIN after the first redirect finished.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] STDIN stream write finished.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Exited process 14696 with exit code 0
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Finished process 14696 with exit code 0, and elapsed time 00:00:00.1543850.
+[2025-02-07 16:33:36Z INFO WorkerCommandManager] Disable plugin internal command extension.
+[2025-02-07 16:33:36Z INFO StepsRunner] Step result: 
+[2025-02-07 16:33:36Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-02-07 16:33:36Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-02-07 16:33:36Z INFO JobRunner] Finalize job.
+[2025-02-07 16:33:36Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Work': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work'
+[2025-02-07 16:33:36Z INFO BuildJobExtension] Total accessible running process: 378.
+[2025-02-07 16:33:36Z INFO BuildJobExtension] Inspecting process environment variables. PID: 14668 (mdworker_shared)
+[2025-02-07 16:33:36Z INFO ProcessExtensions] Read env from output of `ps e -p 14668 -o command`
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Starting process:
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 14668 -o command'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Working directory: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Process started with process id 14707, waiting for process exit.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Exited process 14707 with exit code 0
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Finished process 14707 with exit code 0, and elapsed time 00:00:00.0267773.
+[2025-02-07 16:33:36Z INFO ProcessExtensions] Successfully dump environment variables for 14668
+[2025-02-07 16:33:36Z INFO BuildJobExtension] Inspecting process environment variables. PID: 14664 (mdworker_shared)
+[2025-02-07 16:33:36Z INFO ProcessExtensions] Read env from output of `ps e -p 14664 -o command`
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:33:36Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Starting process:
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 14664 -o command'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Working directory: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-02-07 16:33:36Z INFO ProcessInvokerWrapper] Process started with process id 14708, waiting for process exit.
+[2025-02-07 16:33:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:33:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:33:37Z INFO ProcessInvokerWrapper] Exited process 14708 with exit code 0
+[2025-02-07 16:33:37Z INFO ProcessInvokerWrapper] Finished process 14708 with exit code 0, and elapsed time 00:00:00.0393927.
+[2025-02-07 16:33:37Z INFO ProcessExtensions] Successfully dump environment variables for 14664
+[2025-02-07 16:33:37Z INFO JobRunner] Job result after all job steps finish: Failed
+[2025-02-07 16:33:37Z INFO JobRunner] Completing the job execution context.
+[2025-02-07 16:33:37Z INFO JobRunner] Shutting down the job server queue.
+[2025-02-07 16:33:37Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2025-02-07 16:33:37Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-02-07 16:33:38Z INFO JobServerQueue] All queue process task stopped.
+[2025-02-07 16:33:38Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f90788c4-9567-5b73-8a0d-1736388b7d37', success rate: 1/1.
+[2025-02-07 16:33:39Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a8c206f0-b078-4d02-b0e3-e602bb6abf59', success rate: 1/1.
+[2025-02-07 16:33:39Z INFO JobServerQueue] Try to append 1 batches web console lines for record '7a294095-1530-4473-a004-9db505e40c90', success rate: 1/1.
+[2025-02-07 16:33:39Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3dc8fd7e-4368-5a92-293e-d53cefc8c4b3', success rate: 1/1.
+[2025-02-07 16:33:39Z INFO JobServerQueue] Web console line queue drained.
+[2025-02-07 16:33:39Z INFO JobServerQueue] Uploading 4 files in one shot.
+[2025-02-07 16:33:43Z INFO JobServerQueue] Try to upload 4 log files or attachments, success rate: 4/4.
+[2025-02-07 16:33:43Z INFO JobServerQueue] File upload queue drained.
+[2025-02-07 16:33:43Z INFO JobServerQueue] Timeline update queue drained.
+[2025-02-07 16:33:43Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2025-02-07 16:33:43Z INFO TempDirectoryManager] Cleaning agent temp folder: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/_work/_temp
+[2025-02-07 16:33:43Z INFO JobRunner] Raising job completed event.
+[2025-02-07 16:33:43Z INFO Worker] Job completed.

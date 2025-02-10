@@ -1,0 +1,424 @@
+[2025-02-07 16:25:14Z INFO AgentProcess] Agent package osx-arm64.
+[2025-02-07 16:25:14Z INFO AgentProcess] Running on OSX (Arm64).
+[2025-02-07 16:25:14Z INFO AgentProcess] RuntimeInformation: Darwin 24.3.0 Darwin Kernel Version 24.3.0: Thu Jan  2 20:24:06 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T8103.
+[2025-02-07 16:25:14Z INFO AgentProcess] Version: 4.251.0
+[2025-02-07 16:25:14Z INFO AgentProcess] Commit: 69c65179f56dda56424bcb957bb233f612875444
+[2025-02-07 16:25:14Z INFO AgentProcess] Culture: en-PK
+[2025-02-07 16:25:14Z INFO AgentProcess] UI Culture: en-PK
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:14Z INFO AgentProcess] Validating directory permissions for: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:14Z INFO CommandSettings] Run {
+  "Commit": false,
+  "Diagnostics": false,
+  "RunOnce": false,
+  "StartupType": null,
+  "DebugMode": false,
+  "Help": false,
+  "Version": false
+}
+[2025-02-07 16:25:14Z INFO AgentProcess] Arguments parsed
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:14Z INFO HostContext] Well known config file 'Proxy': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.proxy'
+[2025-02-07 16:25:14Z INFO VstsAgentWebProxy] No proxy setting found.
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:14Z INFO HostContext] Well known config file 'Certificates': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.certificates'
+[2025-02-07 16:25:14Z INFO AgentCertificateManager] No certificate setting found.
+[2025-02-07 16:25:14Z INFO Agent] ExecuteCommand
+[2025-02-07 16:25:14Z INFO ConfigurationStore] currentAssemblyLocation: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/Agent.Listener.dll
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:14Z INFO ConfigurationStore] binPath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:14Z INFO ConfigurationStore] RootFolder: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:14Z INFO HostContext] Well known config file 'Agent': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.agent'
+[2025-02-07 16:25:14Z INFO ConfigurationStore] ConfigFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.agent
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:14Z INFO HostContext] Well known config file 'Credentials': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials'
+[2025-02-07 16:25:14Z INFO ConfigurationStore] CredFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:14Z INFO HostContext] Well known config file 'Service': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.service'
+[2025-02-07 16:25:14Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.service
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:14Z INFO HostContext] Well known config file 'Autologon': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.autologon'
+[2025-02-07 16:25:14Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.autologon
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:14Z INFO HostContext] Well known config file 'Options': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.options'
+[2025-02-07 16:25:14Z INFO ConfigurationStore] RuntimeOptionsFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.options
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:14Z INFO HostContext] Well known config file 'SetupInfo': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.setup_info'
+[2025-02-07 16:25:14Z INFO ConfigurationStore] SetupInfoFilePath: /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.setup_info
+[2025-02-07 16:25:14Z INFO ConfigurationManager] LoadSettings
+[2025-02-07 16:25:14Z INFO ConfigurationStore] IsConfigured()
+[2025-02-07 16:25:14Z INFO ConfigurationStore] IsConfigured: True
+[2025-02-07 16:25:14Z INFO ConfigurationManager] Is configured: True
+[2025-02-07 16:25:14Z INFO ConfigurationStore] Read setting file: 195 chars
+[2025-02-07 16:25:14Z INFO ConfigurationManager] Settings Loaded
+[2025-02-07 16:25:14Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-02-07 16:25:14Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-02-07 16:25:14Z INFO ConfigurationStore] IsConfigured()
+[2025-02-07 16:25:14Z INFO ConfigurationStore] IsConfigured: True
+[2025-02-07 16:25:14Z INFO ConfigurationManager] Is configured: True
+[2025-02-07 16:25:14Z INFO Agent] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2025-02-07 16:25:14Z INFO Agent] Set agent startup type - Manual
+[2025-02-07 16:25:14Z INFO CommandSettings] Flag 'debug': 'False'
+[2025-02-07 16:25:14Z INFO ConfigurationStore] HasCredentials()
+[2025-02-07 16:25:14Z INFO ConfigurationStore] stored True
+[2025-02-07 16:25:14Z INFO CredentialManager] GetCredentialProvider
+[2025-02-07 16:25:14Z INFO CredentialManager] Creating type OAuth
+[2025-02-07 16:25:14Z INFO CredentialManager] Creating credential type: OAuth
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:14Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:14Z INFO HostContext] Well known config file 'RSACredentials': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams'
+[2025-02-07 16:25:14Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 16:25:14Z INFO ConfigurationManager] LoadSettings
+[2025-02-07 16:25:14Z INFO ConfigurationStore] IsConfigured()
+[2025-02-07 16:25:14Z INFO ConfigurationStore] IsConfigured: True
+[2025-02-07 16:25:14Z INFO ConfigurationManager] Is configured: True
+[2025-02-07 16:25:14Z INFO ConfigurationManager] Settings Loaded
+[2025-02-07 16:25:14Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/f0f08964-6048-4827-b92d-049c07d4ba45, Basic realm="https://tfsprodcin2.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: ae165a4e-3b86-456d-bd99-8d612e11fa3a
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 464d33b4-c3a0-4c16-8ad8-7862a5ad0180
+X-TFS-Session: 9f7a9ec0-69d7-4292-b3ad-e87a9ab079ae
+X-VSS-E2EID: fc583375-ce1f-4b89-b82a-80e14bb1b5cf
+X-VSS-SenderDeploymentId: aa671e66-2da2-b247-ea94-ede72b24f5c9
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcin2.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/muhammadaliraza/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/muhammadaliraza/
+X-VSS-ResourceTenant: f0f08964-6048-4827-b92d-049c07d4ba45
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcin3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fmuhammadaliraza%2F_apis%2FCustomerIntelligence%2FEvents&redirect=1&mkt=en-PK&hid=6b947fb3-d928-4f4a-accf-7d92669d741b&context=eyJodCI6MiwiaGlkIjoiYTdhMWU2ZTEtNmI3MS00NjJiLTg0N2UtZjQyNzE3MzRiODRjIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5123a874-15d5-4ee8-bd3f-81c7fb764bd6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 950E65041245465FACA8A94FF9D4E61F Ref B: DXB20EDGE0213 Ref C: 2025-02-07T16:25:14Z
+Date: Fri, 07 Feb 2025 16:25:14 GMT
+
+[2025-02-07 16:25:14Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 16:25:14Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 16:25:15Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2025-02-07 16:25:15Z INFO CommandSettings] Flag 'once': 'False'
+[2025-02-07 16:25:15Z INFO CommandSettings] Flag 'once': 'False'
+[2025-02-07 16:25:15Z INFO Agent] RunAsync
+[2025-02-07 16:25:15Z INFO ConfigurationManager] LoadSettings
+[2025-02-07 16:25:15Z INFO ConfigurationStore] IsConfigured()
+[2025-02-07 16:25:15Z INFO ConfigurationStore] IsConfigured: True
+[2025-02-07 16:25:15Z INFO ConfigurationManager] Is configured: True
+[2025-02-07 16:25:15Z INFO ConfigurationManager] Settings Loaded
+[2025-02-07 16:25:15Z INFO MessageListener] {
+  "AcceptTeeEula": true,
+  "AgentId": 9,
+  "AgentName": "MacBookAir",
+  "PoolId": 10,
+  "PoolName": "Testing",
+  "ServerUrl": "https://dev.azure.com/muhammadaliraza/",
+  "WorkFolder": "_work"
+}
+[2025-02-07 16:25:15Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2025-02-07 16:25:15Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2025-02-07 16:25:15Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-02-07 16:25:15Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-02-07 16:25:15Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-02-07 16:25:15Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding '_': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/Agent.Listener'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding '__CFBundleIdentifier': 'dev.warp.Warp-Stable'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'COLORTERM': 'truecolor'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'COMMAND_MODE': 'unix2003'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'CONDA_CHANGEPS1': 'false'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'DOCKER_HOST': 'unix:///var/run/docker.sock'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/Users/ali'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEBREW_PREFIX': '/opt/homebrew'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEBREW_REPOSITORY': '/opt/homebrew'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'INFOPATH': '/opt/homebrew/share/info:'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'JAVA_HOME': '/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_CTYPE': 'UTF-8'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'ali'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/opt/homebrew/opt/mysql-client/bin:/opt/homebrew/opt/node@22/bin:/opt/homebrew/opt/mysql-client/bin:/opt/homebrew/opt/node@22/bin:/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.13/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/ali/.local/bin'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/zsh'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.D29T8IjWp7/Listeners'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_SOCKET_DIR': '~/.ssh'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM_PROGRAM'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM_PROGRAM_VERSION'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'TMPDIR': '/var/folders/x8/r22wrch10fx88fyk29s9j3h40000gn/T/'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'ali'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'WARP_HONOR_PS1': '0'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'WARP_IS_LOCAL_SHELL_SESSION': '1'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'WARP_USE_SSH_WRAPPER': '1'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'XPC_FLAGS': '0x0'
+[2025-02-07 16:25:15Z INFO EnvironmentCapabilitiesProvider] Adding 'XPC_SERVICE_NAME': '0'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'android'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Checking file: '/Users/ali/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'ant'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Adding 'bundler': '/usr/bin/bundle'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'clang'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Adding 'clang': '/usr/bin/clang'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'curl'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Adding 'curl': '/usr/bin/curl'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'docker'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Adding 'docker': '/usr/local/bin/docker'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'dotnet'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'git'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'java'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Adding 'java': '/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'javac'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Adding 'JDK': '/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/javac'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'make'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Adding 'make': '/usr/bin/make'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'node'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Adding 'node.js': '/opt/homebrew/opt/node@22/bin/node'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'npm'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Adding 'npm': '/opt/homebrew/opt/node@22/bin/npm'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'python'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'python3'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Adding 'python3': '/opt/homebrew/bin/python3'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'sh'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Adding 'sh': '/bin/sh'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'svn'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Adding 'ruby': '/usr/bin/ruby'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'rake'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Adding 'rake': '/usr/bin/rake'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'svn'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'generator'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Not found.
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper] Starting process:
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/xcode-select'
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper]   Arguments: '-p'
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper] Process started with process id 10714, waiting for process exit.
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper] Exited process 10714 with exit code 0
+[2025-02-07 16:25:15Z INFO ProcessInvokerWrapper] Finished process 10714 with exit code 0, and elapsed time 00:00:00.0483619.
+[2025-02-07 16:25:15Z INFO CapabilitiesBuilder] Adding 'xcode': '/Library/Developer/CommandLineTools'
+[2025-02-07 16:25:15Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:15Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:15Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'MacBookAir'
+[2025-02-07 16:25:15Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Darwin'
+[2025-02-07 16:25:15Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'ARM64'
+[2025-02-07 16:25:15Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSVersion': '15.3'
+[2025-02-07 16:25:15Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'True'
+[2025-02-07 16:25:15Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '4.251.0'
+[2025-02-07 16:25:15Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'MacBookAir'
+[2025-02-07 16:25:15Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:15Z INFO HostContext] Well known directory 'Root': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:15Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent'
+[2025-02-07 16:25:15Z INFO MessageListener] Loading Credentials
+[2025-02-07 16:25:15Z INFO ConfigurationStore] HasCredentials()
+[2025-02-07 16:25:15Z INFO ConfigurationStore] stored True
+[2025-02-07 16:25:15Z INFO CredentialManager] GetCredentialProvider
+[2025-02-07 16:25:15Z INFO CredentialManager] Creating type OAuth
+[2025-02-07 16:25:15Z INFO CredentialManager] Creating credential type: OAuth
+[2025-02-07 16:25:15Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 16:25:15Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2025-02-07 16:25:15Z INFO MessageListener] Attempt to create session.
+[2025-02-07 16:25:15Z INFO MessageListener] Connecting to the Agent Server...
+[2025-02-07 16:25:15Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2025-02-07 16:25:15Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 16:25:16Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/f0f08964-6048-4827-b92d-049c07d4ba45, Basic realm="https://tfsprodcin2.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: e81184df-c502-4ba7-8e38-fdffdf70c972
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: b1c0ef05-e2d1-434d-ae7e-31b5cc0aaaaa
+X-TFS-Session: 9f7a9ec0-69d7-4292-b3ad-e87a9ab079ae
+X-VSS-E2EID: 4dcbb951-4d37-4bad-a04f-1935a8d8f3ba
+X-VSS-SenderDeploymentId: aa671e66-2da2-b247-ea94-ede72b24f5c9
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcin2.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/muhammadaliraza/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/muhammadaliraza/
+X-VSS-ResourceTenant: f0f08964-6048-4827-b92d-049c07d4ba45
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcin3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fmuhammadaliraza%2F_apis%2FconnectionData%3FconnectOptions%3D0%26lastChangeId%3D9457691%26lastChangeId64%3D9457691&redirect=1&mkt=en-PK&hid=6b947fb3-d928-4f4a-accf-7d92669d741b&context=eyJodCI6MiwiaGlkIjoiYTdhMWU2ZTEtNmI3MS00NjJiLTg0N2UtZjQyNzE3MzRiODRjIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5123a874-15d5-4ee8-bd3f-81c7fb764bd6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 15791BDB337C483CBC6EBF049DC73441 Ref B: DXB20EDGE0209 Ref C: 2025-02-07T16:25:16Z
+Date: Fri, 07 Feb 2025 16:25:16 GMT
+
+[2025-02-07 16:25:16Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 16:25:16Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 16:25:16Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2025-02-07 16:25:17Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 16:25:17Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-02-07 16:25:17Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 16:25:17Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-02-07 16:25:17Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 16:25:17Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 16:25:17Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 16:25:17Z INFO MessageListener] VssConnection created
+[2025-02-07 16:25:17Z INFO MessageListener] Session created.
+[2025-02-07 16:25:17Z INFO Terminal] WRITE LINE: 2025-02-07 16:25:17Z: Listening for Jobs
+[2025-02-07 16:25:17Z INFO JobDispatcher] Set agent/worker IPC timeout to 30 seconds.
+[2025-02-07 16:25:33Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 16:25:33Z INFO MessageListener] Message '5' received from session 'a95640d0-0532-4152-9a42-e3208f0a2ca0'.
+[2025-02-07 16:25:33Z INFO JobDispatcher] Job request 5 for plan 325b5552-a107-4711-8b00-b982f1e2a759 job 3dc8fd7e-4368-5a92-293e-d53cefc8c4b3 received.
+[2025-02-07 16:25:33Z INFO Terminal] WRITE LINE: 2025-02-07 16:25:33Z: Running job: Build
+[2025-02-07 16:25:33Z INFO AgentServer] Refresh JobRequest VssConnection to get on a different AFD node.
+[2025-02-07 16:25:33Z INFO AgentServer] Establish connection with 30 seconds timeout.
+[2025-02-07 16:25:33Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-02-07 16:25:33Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session 'a95640d0-0532-4152-9a42-e3208f0a2ca0'.
+[2025-02-07 16:25:33Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-02-07 16:25:33Z INFO JobDispatcher] Start renew job request 5 for job 3dc8fd7e-4368-5a92-293e-d53cefc8c4b3.
+[2025-02-07 16:25:33Z INFO JobDispatcher] Successfully renew job request 5, job is valid till 07/02/2025 4:35:33 PM
+[2025-02-07 16:25:33Z INFO ConfigurationStore] HasCredentials()
+[2025-02-07 16:25:33Z INFO ConfigurationStore] stored True
+[2025-02-07 16:25:33Z INFO CredentialManager] GetCredentialProvider
+[2025-02-07 16:25:33Z INFO CredentialManager] Creating type OAuth
+[2025-02-07 16:25:33Z INFO CredentialManager] Creating credential type: OAuth
+[2025-02-07 16:25:33Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 16:25:33Z INFO ConfigurationManager] LoadSettings
+[2025-02-07 16:25:33Z INFO ConfigurationStore] IsConfigured()
+[2025-02-07 16:25:33Z INFO ConfigurationStore] IsConfigured: True
+[2025-02-07 16:25:33Z INFO ConfigurationManager] Is configured: True
+[2025-02-07 16:25:33Z INFO ConfigurationManager] Settings Loaded
+[2025-02-07 16:25:34Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/f0f08964-6048-4827-b92d-049c07d4ba45, Basic realm="https://tfsprodcin2.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: e81184df-c502-4ba7-8e38-fdffdf70c972
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: b1c0eeff-e2d1-434d-ae7e-31b5cc0aaaaa
+X-TFS-Session: 9f7a9ec0-69d7-4292-b3ad-e87a9ab079ae
+X-VSS-E2EID: 19626708-a3c6-412f-8c83-40279b1ddc50
+X-VSS-SenderDeploymentId: aa671e66-2da2-b247-ea94-ede72b24f5c9
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcin2.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/muhammadaliraza/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/muhammadaliraza/
+X-VSS-ResourceTenant: f0f08964-6048-4827-b92d-049c07d4ba45
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcin3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fmuhammadaliraza%2F_apis%2FFeatureFlags%2FDistributedTask.Agent.UseMaskingPerformanceEnhancements%3FcheckFeatureExists%3DFalse&redirect=1&mkt=en-PK&hid=6b947fb3-d928-4f4a-accf-7d92669d741b&context=eyJodCI6MiwiaGlkIjoiYTdhMWU2ZTEtNmI3MS00NjJiLTg0N2UtZjQyNzE3MzRiODRjIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5123a874-15d5-4ee8-bd3f-81c7fb764bd6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 1802034E952C49EA83E19B94B4C87F20 Ref B: DXB20EDGE0307 Ref C: 2025-02-07T16:25:34Z
+Date: Fri, 07 Feb 2025 16:25:33 GMT
+
+[2025-02-07 16:25:34Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 16:25:34Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/.credentials_rsaparams
+[2025-02-07 16:25:34Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2025-02-07 16:25:35Z INFO HostContext] Well known directory 'Bin': '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:35Z INFO ProcessInvokerWrapper] Starting process:
+[2025-02-07 16:25:35Z INFO ProcessInvokerWrapper]   File name: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin/Agent.Worker'
+[2025-02-07 16:25:35Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 167 172'
+[2025-02-07 16:25:35Z INFO ProcessInvokerWrapper]   Working directory: '/Users/ali/Documents/PL/Azure/project/Nodejs-App-For-DataDog-APM/myagent/bin'
+[2025-02-07 16:25:35Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-02-07 16:25:35Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-02-07 16:25:35Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-02-07 16:25:35Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-02-07 16:25:35Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-02-07 16:25:35Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-02-07 16:25:35Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-02-07 16:25:35Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-02-07 16:25:35Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-02-07 16:25:35Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-02-07 16:25:35Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-02-07 16:25:35Z INFO ProcessInvokerWrapper] Process started with process id 10829, waiting for process exit.
+[2025-02-07 16:25:35Z INFO JobDispatcher] Send job request message to worker for job 3dc8fd7e-4368-5a92-293e-d53cefc8c4b3 (44 KB).
+[2025-02-07 16:25:35Z INFO JobDispatcher] Took 1 ms to send job message to worker
+[2025-02-07 16:25:35Z INFO JobNotification] Entering JobStarted Notification
+[2025-02-07 16:25:35Z INFO JobNotification] Entering StartMonitor
+[2025-02-07 16:25:47Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:25:47Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-07 16:25:47Z INFO ProcessInvokerWrapper] Exited process 10829 with exit code 102
+[2025-02-07 16:25:47Z INFO ProcessInvokerWrapper] Finished process 10829 with exit code 102, and elapsed time 00:00:12.7421346.
+[2025-02-07 16:25:47Z INFO JobDispatcher] Worker finished for job 3dc8fd7e-4368-5a92-293e-d53cefc8c4b3. Code: 102
+[2025-02-07 16:25:47Z INFO JobDispatcher] finish job request for job 3dc8fd7e-4368-5a92-293e-d53cefc8c4b3 with result: Failed
+[2025-02-07 16:25:47Z INFO Terminal] WRITE LINE: 2025-02-07 16:25:47Z: Job Build completed with result: Failed
+[2025-02-07 16:25:47Z INFO JobDispatcher] Stop renew job request for job 3dc8fd7e-4368-5a92-293e-d53cefc8c4b3.
+[2025-02-07 16:25:47Z INFO JobDispatcher] job renew has been canceled, stop renew job request 5.
+[2025-02-07 16:25:47Z INFO JobNotification] Entering JobCompleted Notification
+[2025-02-07 16:25:47Z INFO JobNotification] Entering EndMonitor
+[2025-02-07 16:26:24Z INFO MessageListener] Sleeping for 12.262 seconds before retrying.
+[2025-02-07 16:26:53Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session 'a95640d0-0532-4152-9a42-e3208f0a2ca0'.
+[2025-02-07 16:27:23Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session 'a95640d0-0532-4152-9a42-e3208f0a2ca0'.
+[2025-02-07 16:27:26Z INFO MessageListener] Sleeping for 12.054 seconds before retrying.
