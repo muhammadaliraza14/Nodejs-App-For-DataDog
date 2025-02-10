@@ -1,9 +1,0 @@
-﻿{
-  "acceptTeeEula": true,
-  "agentId": 9,
-  "agentName": "MacBookAir",
-  "poolId": 10,
-  "poolName": "Testing",
-  "serverUrl": "https://dev.azure.com/muhammadaliraza/",
-  "workFolder": "_work"
-}
